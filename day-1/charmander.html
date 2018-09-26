@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<h2>Charmander</h2>
+
+	<main>
+		<p> Click here to view more info about <a href="https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"> Charmander </a>.</p>
+
+		<a href="#"><img src="https://cdn.bulbagarden.net/upload/thumb/7/73/004Charmander.png/250px-004Charmander.png" alt="A photo of the Pokemon Charmander"></a>
+
+		<div>
+			<p>Charmander Evolution Line:</p>
+				<ul>
+					<li>Charmander</li>
+					<li>(Lv.16)Charmeleon</li>
+					<li>(Lv.36)Charizard</li>
+				</ul>
+			<p>Charmander Stats:</p>
+				<ol>
+					<li>Fire Type</li>
+					<li>Height:2'00"</li>
+					<li>Weight:18.7 lbs</li>
+				</ol>
+		</div>
+
+		<form action="/submit-charmander">
+			<p>Would you choose Charmander as your starter?</p><br>
+				<label><input type ="radio" name="yes-no" checked> Yes</label>
+				<label><input type ="radio" name="yes-no" > No</label><br>
+			<p>Which of the other Kanto starters would you choose?</p><br>
+				<label><input type="checkbox" name="starters" checked >Bulbasaur</label>
+				<label><input type="checkbox" name="starters"  >Squirtle</label>
+				<label><input type="checkbox" name="starters"  >Pikachu</label>
+				<label><input type="checkbox" name="starters"  >Eevee</label><br>
+				<input type="text" placeholder="What other starter would you choose?" required>
+				<button type="submit">I choose you!</button>
+		</form>
+	</main>
+</html>
