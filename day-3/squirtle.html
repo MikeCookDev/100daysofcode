@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<title>Squirtle</title>
+
+			<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+		
+		<style>
+
+			body {
+				background-color: #04286B;
+		     }
+
+		     h2 {
+		     	font-family: 'Acme', sans-serif;
+		     	font-color: #2B2A29;
+		     	font-size: 40px;
+		     }
+
+		     img {
+		     	margin: 10px;
+		     	padding: 20px;
+		     }
+
+
+		     .font {
+
+		     	font-family: 'Acme', sans-serif;
+		     	font-color: #2B2A29;
+		     	font-size: 25px;
+		     }
+
+		     #bulbasaur {
+		     	color: #0F6B04;
+		     }
+
+		     #charmander {
+		     	color: #FC7F03 ;
+		     }
+
+		     #pikachu {
+		     	color:#F4FA43 ;
+		     }
+
+		     #eevee {
+		     	color: #8A7503;
+		     }
+
+			 a {
+				color: #AC72B3;
+			 }
+
+		    
+		</style>
+	</head>
+		<body>
+
+			<h2>Squirtle</h2>
+
+			<main class="font">
+				<p> Click here to view more info about <a href="https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon)"> Squirtle </a>.</p>
+
+				<a href="#"><img src="https://cdn.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/250px-007Squirtle.png" alt="A photo of the Pokemon Squirtle"></a>
+
+				<div>
+					<p>Squirtle Evolution Line:</p>
+						<ul>
+							<li>Squirtle</li>
+							<li>(Lv.16)Wartortle</li>
+							<li>(Lv.36)Blastoise</li>
+						</ul>
+					<p>Squirtle Stats:</p>
+						<ol>
+							<li>Water Type</li>
+							<li>Height:1'08"</li>
+							<li>Weight:19.8 lbs</li>
+						</ol>
+				</div>
+
+				<form action="/submit-squirtle">
+					<p>Would you choose Squirtle as your starter?</p><br>
+						<label><input type ="radio" name="yes-no" checked> Yes</label>
+						<label><input type ="radio" name="yes-no" > No</label><br>
+					<p>Which of the other Kanto starters would you choose?</p><br>
+						<label id="bulbasaur"><input type="checkbox" name="starters" checked >Bulbasaur</label>
+						<label id="charmander"><input type="checkbox" name="starters">Charmander</label>
+						<label id="pikachu"><input type="checkbox" name="starters"  >Pikachu</label>
+						<label id="eevee"><input type="checkbox" name="starters"  >Eevee</label><br>
+						<input type="text" placeholder="What is your name?" required>
+						<button type="submit">I choose you!</button>
+				</form>
+			</main>
+		</body>
+</html>
