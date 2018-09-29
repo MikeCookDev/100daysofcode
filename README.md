@@ -9,3 +9,5 @@ Day 2: A little more practice with forms, lists, anchors, images, paragraphs, an
        
 Day 3: Practice with a little of CSS basics and added some background color, font colors to the checkboxes, aswell as color to the         
        hyperlinks. Added some margin and padding around the images as well as asigning a font-family and size. 
+       
+Day 4: Very light day of coding for day 4, but I played around with CSS a little more for my mini projects. Added a shadow box for the            images, aswell as practicing with some styling for the fonts including underline and em.
