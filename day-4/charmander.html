@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<title>Charmander</title>
+
+			<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+		
+		<style>
+
+			body {
+				background-color: #FC7F03;
+		     }
+
+		     h2 {
+		     	font-family: 'Acme', sans-serif;
+		     	font-color: #2B2A29;
+		     	font-size: 40px;
+		     }
+
+		     img {
+		     	margin: 10px;
+		     	padding: 20px;
+		     }
+
+
+		     .font {
+
+		     	font-family: 'Acme', sans-serif;
+		     	font-color: #2B2A29;
+		     	font-size: 25px;
+		     }
+
+		     #bulbasaur {
+		     	color: #0F6B04;
+		     }
+
+		     #squirtle {
+		     	color: #04286B ;
+		     }
+
+		     #pikachu {
+		     	color:#F4FA43 ;
+		     }
+
+		     #eevee {
+		     	color: #8A7503;
+		     }
+
+			#thumbnail {
+		     	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+		     	border-radius: 10%;
+		     }
+
+
+		    
+		</style>
+	</head>
+		<body>
+			<h2><u>Charmander</u></h2>
+
+			<main class="font">
+				<p ><em> Click here to view more info about <a href="https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"> Charmander </a>.</em></p>
+
+				<a href="#"><img src="https://cdn.bulbagarden.net/upload/thumb/7/73/004Charmander.png/250px-004Charmander.png" alt="A photo of the Pokemon Charmander" id="thumbnail"></a>
+
+				<div>
+					<p>Charmander Evolution Line:</p>
+						<ul>
+							<li>Charmander</li>
+							<li>(Lv.16)Charmeleon</li>
+							<li>(Lv.36)Charizard</li>
+						</ul>
+					<p>Charmander Stats:</p>
+						<ol>
+							<li>Fire Type</li>
+							<li>Height:2'00"</li>
+							<li>Weight:18.7 lbs</li>
+						</ol>
+				</div>
+
+				<form action="/submit-charmander">
+					<p>Would you choose Charmander as your starter?</p><br>
+						<label><input type ="radio" name="yes-no" checked> Yes</label>
+						<label><input type ="radio" name="yes-no" > No</label><br>
+					<p>Which of the other Kanto starters would you choose?</p><br>
+						<label id="bulbasaur"><input type="checkbox" name="starters" checked >Bulbasaur</label>
+						<label id="squirtle" ><input type="checkbox" name="starters" >Squirtle</label>
+						<label id="pikachu" ><input type="checkbox" name="starters" >Pikachu</label>
+						<label id="eevee"><input type="checkbox" name="starters"  >Eevee</label><br>
+						<input type="text" placeholder="What is your name?" required>
+						<button type="submit">I choose you!</button>
+				</form>
+			</main>
+		</body>
+</html>
