@@ -14,3 +14,5 @@ Day 4: Very light day of coding for day 4, but I played around with CSS a little
 
 Day 5: Created a little cheat sheet for colors and their Hex and rgb codes.
        Noticed a bug creating whitespace between the divs, will work on fixing that tomorrow, havent found any resources to tell me what          i'm doing wrong...
+      
+Day 6: Fixed the bug and removed the whitespace from the code.
