@@ -13,3 +13,4 @@ Day 3: Practice with a little of CSS basics and added some background color, fon
 Day 4: Very light day of coding for day 4, but I played around with CSS a little more for my mini projects. Added a shadow box for the            images, aswell as practicing with some styling for the fonts including underline and em. 
 
 Day 5: Created a little cheat sheet for colors and their Hex and rgb codes.
+       Noticed a bug creating whitespace between the divs, will work on fixing that tomorrow, havent found any resources to tell me what          i'm doing wrong...
