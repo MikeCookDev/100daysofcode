@@ -16,4 +16,4 @@ Day 5: Created a little cheat sheet for colors and their Hex and rgb codes.
        Noticed a bug creating whitespace between the divs, will work on fixing that tomorrow, havent found any resources to tell me what          i'm doing wrong...
       
 Day 6: Fixed the bug and removed the whitespace from the code. 
-       Removed the ID and added it to the class instead.
+       Removed the ID and added it to the class instead. Also added a few more color selections.
