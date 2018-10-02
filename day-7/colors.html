@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Colors!</title>
+
+	<style>
+
+		
+
+		.shadow{
+			box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+		    border-radius: 50%;
+		}
+
+		.circle {
+			text-align: center;
+			height: 200px;
+			width: 200px;
+			border-radius: 50%;
+			margin: 0 10px 10px 0;
+			
+		}
+
+		.circle:hover {
+			transform: scale(1.1);
+		}
+
+		
+
+		p {
+			padding-top: 60px;
+		}
+
+		.black {
+			background-color: #000000;
+			color: #FFFFFF;
+			display: inline-block;
+			animation-name:black;
+    		animation-duration: 5s;
+		}
+		@keyframes black {
+		   0% {
+		        background-color: #333333;
+		      }
+		    50% {
+		      background-color: #1a1a1a;
+		    }
+		  100% {
+		      background-color:#000000;
+		  }
+		 }
+
+		.gray {
+			background-color: #808080;
+			display: inline-block;
+			animation-name:gray;
+    		animation-duration: 5s;			
+		}
+		@keyframes gray {
+		   0% {
+		        background-color: #b3b3b3;
+		      }
+		    50% {
+		      background-color: #999999;
+		    }
+		  100% {
+		      background-color:#808080;
+		  }
+		 }
+
+		.white {
+			background-color: #ffffff;
+			color: #000000;
+			display: inline-block;
+			border: 1px black solid;
+			animation-name:white;
+    		animation-duration: 5s;
+		}
+		@keyframes white {
+		   0% {
+		        background-color: #e6e6e6;
+		      }
+		    50% {
+		      background-color: #f2f2f2;
+		    }
+		  100% {
+		      background-color:#ffffff;
+		  }
+		 }
+
+		.red {
+			background-color: #FF0000;
+			display: inline-block;
+			animation-name:red;
+    		animation-duration: 5s;
+		}
+		@keyframes red {
+		   0% {
+		        background-color: #ff6666;
+		      }
+		    50% {
+		      background-color: #ff3333;
+		    }
+		  100% {
+		      background-color:#ff0000;
+		  }
+		 }
+
+		.purple {
+			background-color: #800080;
+			display: inline-block;
+			animation-name:purple;
+    		animation-duration: 5s;
+		}
+		@keyframes purple {
+		   0% {
+		        background-color: #e600e6;
+		      }
+		    50% {
+		      background-color: #b300b3;
+		    }
+		  100% {
+		      background-color:#800080;
+		  }
+		 }
+
+		.pink {
+			background-color: #FFC0CB;
+			display: inline-block;
+			animation-name:pink;
+    		animation-duration: 5s;			
+		}
+		@keyframes pink {
+		   0% {
+		        background-color: #ffe6ea;
+		      }
+		    50% {
+		      background-color: #ffccd5;
+		    }
+		  100% {
+		      background-color:#ffc0cb;
+		  }
+		 }
+
+		.orange {
+			background-color: #FFA500;
+			display: inline-block;
+			animation-name:orange;
+    		animation-duration: 5s;
+		}
+		@keyframes orange {
+		   0% {
+		        background-color: #ffc966;
+		      }
+		    50% {
+		      background-color: #ffb833;
+		    }
+		  100% {
+		      background-color:#ffa500;
+		  }
+		 }
+
+		.yellow {
+			background-color: #FFFF00;
+			display: inline-block;
+			animation-name:yellow;
+    		animation-duration: 5s;
+		}
+		@keyframes yellow {
+		   0% {
+		        background-color: #ffff66;
+		      }
+		    50% {
+		      background-color: #ffff33;
+		    }
+		  100% {
+		      background-color:#ffff00;
+		  }
+		 }
+
+		.green {
+			background-color: #008000;
+			display: inline-block;
+			animation-name:green;
+    		animation-duration: 5s;
+		}
+		@keyframes green {
+		   0% {
+		        background-color: #00e600;
+		      }
+		    50% {
+		      background-color: #00b300;
+		    }
+		  100% {
+		      background-color:#008000;
+		  }
+		 }
+
+		.blue {
+			background-color: #0000FF;
+			display: inline-block;
+			animation-name: blue;
+    		animation-duration: 5s;
+		}
+		@keyframes blue {
+		   0% {
+		        background-color: #6666ff;
+		      }
+		    50% {
+		      background-color: #3333ff;
+		    }
+		  100% {
+		      background-color:#0000ff;
+		  }
+		 }
+
+		.aqua {
+			background-color: #00FFFF;
+			display: inline-block;
+			animation-name:aqua;
+    		animation-duration: 5s;
+		}
+		@keyframes aqua {
+		   0% {
+		        background-color: #66ffff;
+		      }
+		    50% {
+		      background-color: #33ffff;
+		    }
+		  100% {
+		      background-color:#00ffff;
+		  }
+		 }
+
+		.fuchsia {
+			background-color: #FF00FF;
+			display: inline-block;
+			animation-name:fuchsia;
+    		animation-duration: 5s;
+		}
+		@keyframes fuchsia {
+		   0% {
+		        background-color: #ff66ff;
+		      }
+		    50% {
+		      background-color: #ff33ff;
+		    }
+		  100% {
+		      background-color:#ff00ff;
+		  }
+		 }
+
+		
+	</style>	
+
+	</head>
+	<body>
+		<h2>Choose a color!</h2>
+
+		<div class="circle black shadow">
+			<p>Black<br>
+			   #FFFFFF<br>
+			   rgb(0, 0, 0)
+			</p>
+		</div>
+
+		<div class="circle gray shadow ">
+			<p>Gray<br>
+			   #808080<br>
+			   rgb(128, 128, 128)
+			</p>
+		</div>
+
+		<div class="circle white shadow">
+			<p>White<br>
+			   #FFFFFF<br>
+			   rgb(255, 255, 255)
+			</p>
+		</div>
+
+		<div class="circle red shadow">
+			<p>Red<br>
+			   #FF0000<br>
+			   rgb(255, 0, 0)
+			</p>
+		</div>
+
+		<div class="circle pink shadow">
+			<p>Pink<br>
+			   #FFC0CB<br>
+			   rgb(350, 100%, 88%)
+			</p>
+		</div>
+
+		<div class="circle purple shadow">
+			<p>Purple<br>
+			   #800080<br>
+			   rgb(300, 100%, 25%)
+			</p>
+		</div>
+
+		<div class="circle fuchsia shadow">
+			<p>Fuchsia<br>
+			   #FF00FF<br>
+			   rgb(255, 0, 255)
+			</p>
+		</div>
+
+		<div class="circle orange shadow">
+			<p>Orange<br>
+			   #FFA500<br>
+			   rgb(255, 165, 0)
+			</p>
+		</div>
+
+		<div class="circle yellow shadow">
+			<p>Yellow<br>
+			   #FFFF00<br>
+			   rgb(255, 255, 0)
+			</p>
+		</div>
+
+		<div class="circle green shadow">
+			<p>Green<br>
+			   #008000<br>
+			   rgb(0, 128, 0)
+			</p>
+		</div>
+
+		<div class="circle blue shadow">
+			<p>Blue<br>
+			   #0000FF<br>
+			   rgb(0, 0, 255)
+			</p>
+		</div>
+
+		<div class="circle aqua shadow">
+			<p>Aqua<br>
+			   #00FFFF<br>
+			   rgb(0, 255, 255)
+			</p>
+		</div>
+
+	
+
+	</body>
+</html>
