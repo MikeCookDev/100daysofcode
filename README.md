@@ -18,4 +18,5 @@ Day 5: Created a little cheat sheet for colors and their Hex and rgb codes.
 Day 6: Fixed the bug and removed the whitespace from the code. 
        Removed the ID and added it to the class instead. Also added a few more color selections.
        
-Day 7: 
+Day 7: Added animation on circles so they fade into their set color.
+       Set a hover to where it will scale 1.1 times when you hover over it.
