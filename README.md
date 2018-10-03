@@ -20,3 +20,5 @@ Day 6: Fixed the bug and removed the whitespace from the code.
        
 Day 7: Added animation on circles so they fade into their set color.
        Set a hover to where it will scale 1.1 times when you hover over it.
+
+Day 8: Created a very minimal project with basic CSS and HTML, animations and some text.
