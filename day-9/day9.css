@@ -1,0 +1,66 @@
+body {
+	text-align: center;
+	background-color: #660000;
+	
+}
+
+h2 {
+	background-color: #e6e6e6;
+	border-radius: 10%;
+	width: 80px;
+	display: inline-block;
+}
+
+.shadow{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	border-radius: 10%;
+	border: black solid 1px;
+}
+
+.boulder {
+	background-color: #999966;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.cascade {
+	background-color: #6666ff;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.thunder {
+	background-color: #ffff66;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.rainbow {
+	background-color: #33cc33;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.soul {
+	background-color: #cc0066;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.marsh {
+	background-color: #660066;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.volcano {
+	background-color: #ff6600;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.earth {
+	background-color: #cc8800;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
