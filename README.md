@@ -24,3 +24,4 @@ Day 7: Added animation on circles so they fade into their set color.
 Day 8: Created a very minimal project with basic CSS and HTML, animations and some text.
 
 Day 9: Still working through the Responsive Web Design Certification course on freecodecamp.org.
+       Did a mini project working with some html and css styling.
