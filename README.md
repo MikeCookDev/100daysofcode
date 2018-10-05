@@ -25,3 +25,6 @@ Day 8: Created a very minimal project with basic CSS and HTML, animations and so
 
 Day 9: Still working through the Responsive Web Design Certification course on freecodecamp.org.
        Did a mini project working with some html and css styling.
+       
+Day 10: Created a tribute page for freecodecamps projects toward the Responsive Web Design Certification.
+      
