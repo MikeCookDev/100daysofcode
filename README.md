@@ -27,4 +27,6 @@ Day 9: Still working through the Responsive Web Design Certification course on f
        Did a mini project working with some html and css styling.
        
 Day 10: Created a tribute page for freecodecamps projects toward the Responsive Web Design Certification.
+
+Day 11: Began working on the survey form for freecodecamps Response Web Design Certification.
       
