@@ -32,5 +32,5 @@ Day 11: Began working on the survey form for freecodecamps Response Web Design C
 
 Day 12: Not much time to work today with family over, however was able to work a little bit on the survey form..not much and i'm pretty           tired now but i will pick it up again tomorrow.
 
-Day 13: Learn that CSS and design is probably my weakness.
+Day 13: Learn that CSS and design is probably my weakness. Practiced on the survey form, it turned out very ugly, Will work on it more             tomorrow.
       
