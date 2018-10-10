@@ -1,0 +1,15 @@
+body{
+	background-color: #FFFFFF;
+}
+
+#header-img {
+	width: 100px;
+}
+
+li {
+	list-style: none;
+}
+
+#submit {
+	background-color: #EABC80;
+}
