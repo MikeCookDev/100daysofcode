@@ -37,4 +37,6 @@ Day 13: Learn that CSS and design is probably my weakness. Practiced on the surv
 Day 14: After some much needed rest i tackled the survery form with a clear mind and was finally able to complete it and im admittedly           very proud of it, despite how basic it is!
 
 Day 15: Began work on project 3 for the Responsive Web Design Certification, a landing page.
+
+Day 16: Continued work on the landing page and practice flexbox and media queries.
       
