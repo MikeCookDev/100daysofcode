@@ -39,4 +39,6 @@ Day 14: After some much needed rest i tackled the survery form with a clear mind
 Day 15: Began work on project 3 for the Responsive Web Design Certification, a landing page.
 
 Day 16: Continued work on the landing page and practice flexbox and media queries.
+
+Day 17: Continued working on the layout of my landing page, overall not happy with the look or the items i have available to use.               Considering starting a different landing page.
       
