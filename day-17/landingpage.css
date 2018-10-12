@@ -1,0 +1,75 @@
+body{
+	background-color: #eabc80;
+	text-align: center;	
+
+}
+
+#header {
+	background-color:  #FFFFFF;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+
+}
+
+#header a{
+	float: right;
+    display: block;
+    color: #000000;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+#header a:hover {
+	background: #eabc80;
+	color: #000000;
+
+}
+
+#header-img {
+	width: 90px;
+	float: left;
+	display: block;
+
+}
+
+li {
+	list-style: none;
+}
+
+#submit {
+	background-color: #EABC80;
+}
+
+#coupons {
+	margin-top:150px;
+}
+
+#menu img{
+	width: 300px;
+	height: 340px;
+	border: 1px solid black;
+	margin: 10px;
+	
+	
+}
+
+
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.container div {
+	border: 1px #EABC80 solid;
+	padding: 10px;
+}
+
+.hours .location {
+	font-size: 18px;
+}
+
