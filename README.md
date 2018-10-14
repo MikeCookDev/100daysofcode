@@ -43,4 +43,6 @@ Day 16: Continued work on the landing page and practice flexbox and media querie
 Day 17: Continued working on the layout of my landing page, overall not happy with the look or the items i have available to use.               Considering starting a different landing page.
 
 Day 18: Had a mini Ahah! moment and completed the landing page test for the third project of the Responsive Web Design Ceritfication.
+
+Day 19: Create the Skeleton and body of the technical documentation page project.
       
