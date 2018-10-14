@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technical Documentation Page-HTML</title>
+
+	<link rel="stylesheet" type="text/css" href="tech_doc_page.css">
+
+</head>
+<body>
+	<nav id="navbar">
+		<header> Basic HTML and HTML5-</header>
+			<ul>
+				<a href="#Headings" class="nav-link">
+					<li>Headings</li></a>
+				<a href="#Paragraph" class="nav-link">
+					<li>Paragraph</li></a>
+				<a href="#Commenting" class="nav-link">
+					<li>Commenting</li></a>
+				<a href="#Main" class="nav-link">
+					<li>Main</li></a>
+				<a href="#Images" class="nav-link">
+					<li>Images</li></a>
+				<a href="#Anchor_Links" class="nav-link">
+					<li>Anchor Links</li></a>
+				<a href="#Image_into_Link" class="nav-link">
+					<li>Image into Link</li></a>
+				<a href="#Bulleted_Unordered_List" class="nav-link">
+					<li>Bulleted Unordered List</li></a>
+				<a href="#Ordered_List" class="nav-link">
+					<li>Ordered List</li></a>
+				<a href="#Text_Field" class="nav-link">
+					<li>Text Field</li></a>
+				<a href="#Placeholder_Text" class="nav-link">
+					<li>Placeholder Text</li></a>
+				<a href="#Form_Element" class="nav-link">
+					<li>Form Element</li></a>
+				<a href="#Submit_Button" class="nav-link">
+					<li>Submit Button</li></a>
+				<a href="#Require_a_field" class="nav-link">
+					<li>Require a field</li></a>
+				<a href="#Radio_Buttons" class="nav-link">
+					<li>Radio Buttons</li></a>
+				<a href="#Checkboxes" class="nav-link">
+					<li>Checkboxes</li></a>
+				<a href="#Check_Radio_Buttons_and_Checkboxes_by_Default" class="nav-link">
+					<li>Check Radio Buttons and Checkboxes by Default</li></a>
+				<a href="#Div" class="nav-link">
+					<li>Div</li></a>
+				<a href="#!DOCTYPE" class="nav-link">
+					<li>!DOCTYPE</li></a>
+				<a href="#Head_and_Body" class="nav-link">
+					<li>Head and Body</li></a>
+			</ul>	
+	</nav>
+		<main id="main-doc">
+
+			<section class="main-section" id="Headings">
+				<header>Headings</header>
+					<ul>
+						<li><code>h1</code></li>
+						<li><code>h2</code></li>
+						<li><code>h3</code></li>
+						<li><code>h4</code></li>
+						<li><code>h5</code></li>
+						<li><code>h6</code></li>
+					</ul>
+
+					<p>h1 elements are often used for main headings</p>
+
+					<p>h2 elements are generally used for sub-headings</p>
+
+					<p>h3,h4,h5,and h6 elements all indicate different levels of subheadings, with the exception of h3, these elements aren't used very often.</p>
+				
+			</section>
+
+			<section class="main-section" id="Paragraph">
+				<header >Paragraph</header>
+
+					<p> <code>p</code> is the preferred element for paragraph text on websites</p>
+				
+			</section>
+
+			<section class="main-section" id="Commenting">
+				<header >Commenting</header>
+
+				<p>
+					<code>!--- Text in here --- :</code> <br>  Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user.
+				</p>
+				<p>
+					Commenting is also a convenient way to make code inactive without having to delete it entirely.
+				</p>
+				
+			</section>
+
+			<section class="main-section" id="Main">
+				<header >Main</header>
+					<p>
+						<code>main</code> is and HTML5 tag that helps search engines and other developers find the main content of your page.
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="Images">
+				<header >Images</header>
+
+					<p>
+						<code>img</code> :<br>
+						You can add images to your website by using the img element, and point to a specific image's URL using the src attribute.
+					</p>
+					<p>
+						An Example of this would be:<br>
+						<code>img src="https://www.your-image-source.com/your-image.jpg"</code>
+					</p>
+					<p>All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="Anchor_Links">
+				<header >Anchor Links</header>
+				<p>
+					You can use anchor elements to link to content outside of your web page.
+				</p>
+				<p>
+					Anchor elements need a destination web address called an href attribute. They also need anchor text.
+				</p>
+				<p>
+					 Here's an example:<br>
+					 <code>a href="https://freecodecamp.org">this links to freecodecamp.org</code>
+			    </p>
+			    <p>
+			    	To create an internal link, you assign a link's href attribute to a hash symbol # plus the value of the id attribute for the element that you want to internally link to, usually further down the page. You then need to add the same id attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
+			    </p>
+			    <p>
+			    	An example of an internal anchor link and its target element:<br>
+			    	<code>a href="#contacts-header">Contacts/a
+			    	... 
+			    	h2 id="contacts-header">Contacts/h2</code>
+			    </p>
+				<p>
+					You can nest links within other text elements:<br>
+					
+					Here's a <code>a target="_blank" href="http://freecodecamp.org"> link to freecodecamp.org a</code> for you to follow.
+				</p>
+				<p>
+					Target is an anchor tag attribute that specifies where to open the link and the value "_blank"specifies to open the link in a new tab.
+				</p>
+				<p>
+					To make a dead link,useful as a placeholder when you haven’t set where the link is going to go, use the # in place of the link after the href=.
+				</p>
+				
+			</section>
+
+			<section class="main-section" id="Image_into_Link">
+				<header >Image into Link</header>
+
+					<p>You can make elements into links by nesting them within an a element.</p>
+					<p>Nest your image within an a element. Here's an example:<br>
+						<code>a href="#" img src="https://bit.ly/fcc-running-cats" alt="Three kittens running towards the camera."a</code>
+					</p>
+					<p>
+						Remember to use # as your a element's href property in order to turn it into a dead link.
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="Bulleted_Unordered_List">
+				<header >Bulleted Unordered List</header>
+					<p> HTML has a special element for creating unordered lists, or bullet point style lists.<br>
+					Unordered lists start with an opening ul element, followed by any number of li elements. Finally, unordered lists close with a /ul
+					</p>
+					<p>For example:<br>
+						<ul>
+							<li><code>ul</code></li>
+			  					<li><code>li li</code></li>
+			  					<li><code>li li</code></li>
+							<li><code>ul</code></li>
+						</ul>
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="Ordered_List">
+				<header >Ordered List</header>
+					<p>HTML has another special element for creating ordered lists, or numbered lists.</p>
+					<p>Ordered lists start with an opening ol element, followed by any number of li elements. Finally, ordered lists close with a /ol
+					</p>
+					<p>For example:<br>
+						<ol>
+							<li><code>ol</code></li>
+								<li><code>li li</code></li>
+								<li><code>li li</code></li>
+							<li><code>ol</code></li>
+						</ol>
+					</p>
+
+				
+			</section>
+
+			<section class="main-section" id="Text_Field">
+				<header >Text Field</header>
+					<p>
+						Input elements are a convenient way to get input from your user.
+					</p>
+					<p> 
+						You can create a text input like this:<br>
+						<code>input type="text"</code>
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="Placeholder_Text">
+				<header >Placeholder Text</header>
+					<p>
+						Placeholder text is what is displayed in your input element before your user has inputted anything.
+					</p>
+					<p>
+						You can create placeholder text like so:<br>
+						<code>input type="text" placeholder="this is placeholder text"</code>
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="Form_Element">
+				<header >Form Element</header>
+					<p> 
+						You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element.
+					</p>
+					<p>For example:</br>
+					<code>form action="/url-where-you-want-to-submit-form-data" /form</code></p>
+				
+			</section>
+
+			<section class="main-section" id="Submit_Button">
+				<header >Submit Button</header>
+					<p>
+						Submit  button will send the data from your form to the URL you specified with your form's action attribute.
+					</p>
+					<p>Here's an example submit button:<br>
+					<code>button type="submit" this button submits the form /button</code></p>
+				
+			</section>
+
+			<section class="main-section" id="Require_a_field">
+				<header >Require a field</header>
+					<p>
+						You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
+					</p>
+					<p>
+						For example, if you wanted to make a text input field required, you can just add the attribute required within your input element, like this:<br> 
+						<code>input type="text" required</code>
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="Radio_Buttons">
+				<header >Radio Buttons</header>
+					<p>
+						You can use radio buttons for questions where you want the user to only give you one answer out of multiple options.
+					</p>
+					<p>Radio buttons are a type of input.</p>
+					<p>Each of your radio buttons can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the radio button input with the label element surrounding it.</p>
+					<p>All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.</p>
+					<p>Here's an example of a radio button:<br>
+						<ul>
+							<li><code>label</code></li>
+		  						<li><code>input type="radio" name="indoor-outdoor"Indoor</code></li>
+							<li><code>label</code></li>
+						</ul>
+					</p>
+					<p>  It is considered best practice to set a for attribute on the label element, with a value that matches the value of the id attribute of the input element. This allows assistive technologies to create a linked relationship between the label and the child input element. </p>
+					<p>For example:<br>
+						<ul>
+							<li><code>label for="indoor"</code></li>
+		  						<li><code>input id="indoor" type="radio" name="indoor-outdoor"Indoor</code></li>
+							<li><code>label</code></li>
+						</ul>
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="Checkboxes">
+				<header >Checkboxes</header>
+					<p>
+						Forms commonly use checkboxes for questions that may have more than one answer.
+					</p>
+					<p>
+						Checkboxes are a type of input
+					</p>
+					<p>
+						Each of your checkboxes can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the checkbox input with the label element surrounding it.
+					</p>
+					<p>
+						All related checkbox inputs should have the same name attribute.
+					</p>
+					<p>
+						It is considered best practice to explicitly define the relationship between a checkbox input and its corresponding label by setting the for attribute on the label element to match the id attribute of the associated input element.
+					</p>
+					<p>
+						Here's an example of a checkbox:<br>
+							<code>label for="loving" input id="loving" type="checkbox" name="personality" Loving /label</code>
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="Check_Radio_Buttons_and_Checkboxes_by_Default">
+				<header >Check Radio Buttons and Checkboxes by default</header>
+					<p>
+						You can set a checkbox or radio button to be checked by default using the checked attribute.
+					</p>
+					<p>
+						To do this, just add the word "checked" to the inside of an input element.
+					</p>
+					<p>
+						For example:<br>
+							<code>input type="radio" name="test-name" checked</code>
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="Div">
+				<header >Div</header>
+					<p>
+						The div element, also known as a division element, is a general purpose container for other elements.
+					</p>
+					<p>
+						The div element is probably the most commonly used HTML element of all.
+					</p>
+					<p>
+						Just like any other non-self-closing element, you can open a div element with <code>div</code> and close it on another line with <code>/div</code>.
+					</p>
+				
+			</section>
+
+			<section class="main-section" id="!DOCTYPE">
+				<header>!DOCTYPE</header>
+					<p> 
+						There are a few elements that give overall structure to your page, and should be included in every HTML document. 
+					</p>
+					<p>
+						At the top of your document, you need to tell the browser which version of HTML your page is using. HTML is an evolving language, and is updated regularly. Most major browsers support the latest specification, which is HTML5. However, older web pages may use previous versions of the language.
+					</p>
+					<p>
+						You tell the browser this information by adding the <code>!DOCTYPE ...</code>tag on the first line, where the "..." part is the version of HTML. For HTML5, you use <code>!DOCTYPE html</code>.
+					</p>
+					<p>
+						The !and uppercase DOCTYPE is important, especially for older browsers. The html is not case sensitive.
+					</p>
+					<p>	
+						Next, the rest of your HTML code needs to be wrapped in html tags. The opening html goes directly below the <code>!DOCTYPE</code> html line, and the closing /html goes at the end of the page.
+					</p>
+					<p>
+						Here's an example of the page structure:<br>
+						<ul>
+							<li><code>!DOCTYPE html</code></li>
+							<li><code>html</code></li>
+							<li><code>!-- Your HTML code goes here --</code></li>					  	
+							<li><code>/html</code></li>
+						</ul>
+					</p>
+
+				
+			</section>
+
+			<section class="main-section" id="Head_and_Body">
+				<header>Head and Body</header>
+					<p>
+						You can add another level of organization in your HTML document within the html tags with the head and body elements. Any markup with information about your page would go into the head tag. Then any markup with the content of the page (what displays for a user) would go into the body tag.
+					</p>
+					<p>Metadata elements, such as link, meta, title, and style, typically go inside the head element.</p>
+					<p>
+						Here's an example of a page's layout:
+							<ul>
+								<li><code>!DOCTYPE html</code></li>
+								<li><code>html</code></li>
+								  <li><code>head</code></li>
+								    <li><code>!-- metadata elements --</code></li>
+								  <li><code>/head</code></li>
+								  <li><code>body</code></li>
+								    <li><code>!-- page contents --</code></li>
+								  <li><code>/body</code></li>
+								<li><code>/html</code></li>
+							</ul>
+					</p>
+				
+			</section>
+			
+
+
+		</main>
+</body>
+</html>
