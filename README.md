@@ -45,4 +45,6 @@ Day 17: Continued working on the layout of my landing page, overall not happy wi
 Day 18: Had a mini Ahah! moment and completed the landing page test for the third project of the Responsive Web Design Ceritfication.
 
 Day 19: Create the Skeleton and body of the technical documentation page project.
+
+Day 20: Completed the Technical documentation project. Might make this into a resource for people just wanting the straightforward               basics of web development.
       
