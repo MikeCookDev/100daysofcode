@@ -46,5 +46,10 @@ Day 18: Had a mini Ahah! moment and completed the landing page test for the thir
 
 Day 19: Create the Skeleton and body of the technical documentation page project.
 
-Day 20: Completed the Technical documentation project. Might make this into a resource for people just wanting the straightforward               basics of web development.
+Day 20: Completed the Technical documentation project. Might make this into a resource for people just wanting the straightforward               basics of web development. 
+        Completed The Personal Portfolio Project and claimed my first freecodecamp certificate for Responsive Web Design!
+
+       
+
+      
       
