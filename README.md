@@ -48,7 +48,8 @@ Day 19: Create the Skeleton and body of the technical documentation page project
 
 Day 20: Completed the Technical documentation project. Might make this into a resource for people just wanting the straightforward               basics of web development. 
         Completed The Personal Portfolio Project and claimed my first freecodecamp certificate for Responsive Web Design!
-
+        
+Day 21: Didnt get alot of coding done because i spent most of my time reading some articles today, hwoever i did begin the layout for my          css technical page and will be starting the javascript section tomorrow.
        
 
       
