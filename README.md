@@ -50,6 +50,8 @@ Day 20: Completed the Technical documentation project. Might make this into a re
         Completed The Personal Portfolio Project and claimed my first freecodecamp certificate for Responsive Web Design!
         
 Day 21: Didnt get alot of coding done because i spent most of my time reading some articles today, hwoever i did begin the layout for my          css technical page and will be starting the javascript section tomorrow.
+
+Day 22: Began the Javascript Course on freecodecamp and began some of the work on the Javascript Cheatsheet.
        
 
       
