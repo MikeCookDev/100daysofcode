@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technical Documentation Page-JavaScript</title>
+
+	<link rel="stylesheet" type="text/css" href="js_cheetsheet.css">
+
+</head>
+<body>
+	<nav id="navbar">
+		<header> Basic JavaScript</header>
+			<ul>
+				<a href="#Introduction_to_JavaScript" class="nav-link">
+					<li>Introduction to JavaScript</li></a>
+				<a href="#Comment_Your_JavaScript_Code" class="nav-link">
+					<li>Comment Your JavaScript Code</li></a>
+				<a href="#Declare_JavaScript_Variables" class="nav-link">
+					<li>Declare JavaScript Variables</li></a>
+				<a href="#Storing_Values_with_the_Assignment_Operator" class="nav-link">
+					<li>Storing Values with the Assignment Operator</li></a>
+			    <a href="#Initializing_Variables_with_the_Assignment_Operator" 
+					class="nav-link">
+					<li>Initializing Variables with the Assignment Operator</li></a>
+				<a href="#Understanding_Uninitialized_Variables" class="nav-link">
+					<li>Understanding Uninitialized Variables</li></a>
+				<a href="#Understanding_Case_Sensitivity_in_Variables" class="nav-link">
+					<li>Understanding Case Sensitivity in Variables</li></a>
+		<!--	<a href="#Bulleted_Unordered_List" class="nav-link">
+					<li>Bulleted Unordered List</li></a>
+				<a href="#Ordered_List" class="nav-link">
+					<li>Ordered List</li></a>
+				<a href="#Text_Field" class="nav-link">
+					<li>Text Field</li></a>
+				<a href="#Placeholder_Text" class="nav-link">
+					<li>Placeholder Text</li></a>
+				<a href="#Form_Element" class="nav-link">
+					<li>Form Element</li></a>
+				<a href="#Submit_Button" class="nav-link">
+					<li>Submit Button</li></a>
+				<a href="#Require_a_field" class="nav-link">
+					<li>Require a field</li></a>
+				<a href="#Radio_Buttons" class="nav-link">
+					<li>Radio Buttons</li></a>
+				<a href="#Checkboxes" class="nav-link">
+					<li>Checkboxes</li></a>
+				<a href="#Check_Radio_Buttons_and_Checkboxes_by_Default" class="nav-link">
+					<li>Check Radio Buttons and Checkboxes by Default</li></a>
+				<a href="#Div" class="nav-link">
+					<li>Div</li></a>
+				<a href="#!DOCTYPE" class="nav-link">
+					<li>!DOCTYPE</li></a>
+				<a href="#Head_and_Body" class="nav-link">
+					<li>Head and Body</li></a>-->
+			</ul>	
+	</nav>
+		<main id="main-doc">
+
+			<section class="main-section" id="Introduction_to_JavaScript">
+				<header>Introduction to JavaScript</header>
+					<p>JavaScript is a high-level programming language that all modern web browsers support. It is also one of the core technologies of the web, along with HTML and CSS that you may have learned previously. This section will cover basic JavaScript programming concepts, which range from variables and arithmetic to objects and loops.</p>				
+			</section>
+
+			<section class="main-section" id="Comment_Your_JavaScript_Code">
+				<header>Comment Your JavaScript Code</header>
+					<p>Comments are lines of code that JavaScript will intentionally ignore. Comments are a great way to leave notes to yourself and to other people who will later need to figure out what that code does.</p>
+
+					<p>There are two ways to write comments in JavaScript:</p>
+					<p>Using <code>//</code> will tell JavaScript to ignore the remainder of the text on the current line:</p>
+					<p><code>// This is an in-line comment.</code></p>
+					<p>You can make a multi-line comment beginning with<code> /* </code>and ending with <code>*/</code>:</p>
+					<p><code>/* This is a<br>
+					multi-line comment */</code></p>
+					<p><strong>Best Practice:</strong><br>
+					As you write code, you should regularly add comments to clarify the function of parts of your code. Good commenting can help communicate the intent of your code—both for others and for your future self.</p>
+			</section>
+
+			<section class="main-section" id="Declare_JavaScript_Variables">
+				<header>Declare JavaScript Variables</header>
+					<p>In computer science, <em>data</em> is anything that is meaningful to the computer. JavaScript provides seven different <em>data types</em> which are <code>undefined</code>, <code>null</code>, <code>boolean</code>, <code>string</code>, <code>symbol</code>, <code>number</code>, and <code>object</code>.</p>
+
+					<p><em>Variable</em>s allow computers to store and manipulate data in a dynamic fashion. They do this by using a "label" to point to the data rather than using the data itself. Any of the seven data types may be stored in a variable.</p>
+
+					<p>Variables are similar to the x and y variables you use in mathematics, which means they're a simple name to represent the data we want to refer to. Computer variables differ from mathematical variables in that they can store different values at different times.</p>
+
+					<p>We tell JavaScript to create or <em>declare</em> a variable by putting the keyword var in front of it, like so:<br>
+						<br>
+						<code>var ourName;</code>
+						<br>
+						<br>
+					creates a variable called <em>ourName</em>. In JavaScript we end statements with semicolons.</p>
+
+					<p>Variable names can be made up of numbers, letters, and $ or _, but may not contain spaces or start with a number.</p>				
+			</section>
+
+			<section class="main-section" id="Storing_Values_with_the_Assignment_Operator">
+				<header>Storing Values with the Assignment Operator</header>
+					<p>In JavaScript, you can store a value in a variable with the <em>assignment</em> operator.</p>
+					<p><code>myVariable = 5;</code>
+						<br>
+					This assigns the Number value 5 to myVariable.</p>
+
+					<p>Assignment always goes from right to left. Everything to the right of the = operator is resolved before the value is assigned to the variable to the left of the operator.</p>
+
+					<p><code>myVar = 5;<br>
+							 myNum = myVar;</code></p>
+
+					<p>This assigns 5 to myVar and then resolves myVar to 5 again and assigns it to myNum.</p>
+			</section>
+
+			<section class="main-section" id="Initializing_Variables_with_the_Assignment_Operator">
+				<header>Initializing Variables with the Assignment Operator</header>
+					<p>It is common to <em>initialize</em>a variable to an initial value in the same line as it is declared.</p>
+
+					<p><code>var myVar = 0;</code></p>
+
+					<p>Creates a new variable called myVar and assigns it an initial value of 0.</p>				
+			</section>
+
+			<section class="main-section" id="Understanding_Uninitialized_Variables">
+				<header>Understanding Uninitialized Variables</header>
+					<p>When JavaScript variables are declared, they have an initial value of undefined. If you do a mathematical operation on an undefined variable your result will be NaN which means <em>"Not a Number"</em>. If you concatenate a string with an undefined variable, you will get a literal string of "undefined".</p>					
+			</section>
+
+			<section class="main-section" id="Understanding_Case_Sensitivity_in_Variables">
+				<header>Understanding Case Sensitivity in Variables</header>
+					<p>In JavaScript all variables and function names are case sensitive. This means that capitalization matters.</p>
+
+					<p>MYVAR is not the same as MyVar nor myvar. It is possible to have multiple distinct variables with the same name but different casing. It is strongly recommended that for the sake of clarity, you <em>do not</em> use this language feature.</p>
+
+					<p><strong>Best Practice</strong><br>
+						Write variable names in JavaScript in <em>camelCase</em>. In<em> camelCase</em>, multi-word variable names have the first word in lowercase and the first letter of each subsequent word is capitalized.
+					</p>
+
+					<p><strong>Examples:</strong></p>
+
+					<p><code>var someVariable;<br>
+							 var anotherVariableName;<br>
+							 var thisVariableNameIsSoLong;
+						</code>
+					</p>
+			</section>
+					
+
+			
+
+
+		</main>
+</body>
+</html>
