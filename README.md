@@ -54,6 +54,8 @@ Day 21: Didnt get alot of coding done because i spent most of my time reading so
 Day 22: Began the Javascript Course on freecodecamp and began some of the work on the Javascript Cheatsheet.
 
 Day 23: Continued working through JavaScript aswell as adding to my javascript cheatsheet.
+
+Day 24: Continued work on JavaScript and created a template site to follow my daily progress and sections studied.
        
 
       
