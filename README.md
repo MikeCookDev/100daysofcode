@@ -56,6 +56,8 @@ Day 22: Began the Javascript Course on freecodecamp and began some of the work o
 Day 23: Continued working through JavaScript aswell as adding to my javascript cheatsheet.
 
 Day 24: Continued work on JavaScript and created a template site to follow my daily progress and sections studied.
+
+Day 25: Despite the lack of sleep and being utterly exhausted I managed to geth a little bit of studying in today with JavaScript.
        
 
       
