@@ -58,6 +58,8 @@ Day 23: Continued working through JavaScript aswell as adding to my javascript c
 Day 24: Continued work on JavaScript and created a template site to follow my daily progress and sections studied.
 
 Day 25: Despite the lack of sleep and being utterly exhausted I managed to geth a little bit of studying in today with JavaScript.
+
+Day 26: Working on JavaScript more, and no lie, its difficult, but sooo worth it when it clicks!
        
 
       
