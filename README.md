@@ -64,6 +64,8 @@ Day 26: Working on JavaScript more, and no lie, its difficult, but sooo worth it
 Day 27: Continued working on JavaScript...Wish i had more time but at minimum im trying to complete 5 lessons a day.
 
 Day 28: Continued work on Javascript..not much progress today
+
+Day 29: Much better day working with JavaScript today!
        
 
       
