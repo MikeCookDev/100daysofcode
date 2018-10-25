@@ -66,6 +66,8 @@ Day 27: Continued working on JavaScript...Wish i had more time but at minimum im
 Day 28: Continued work on Javascript..not much progress today
 
 Day 29: Much better day working with JavaScript today!
+
+Day 30: One month in and workig on more Javascript basics!
        
 
       
