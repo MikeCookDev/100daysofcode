@@ -72,6 +72,8 @@ Day 30: One month in and workig on more Javascript basics!
 Day 31: Still working on Javascript, didnt get through to many lessons today, got stuck a few times..
 
 Day 32: Continued work on JavaScript
+
+Day 33: Dived in and worked more on JavaScript and tried to focus more after realizing that i'm overthinking it and making it more               difficult than it really is..
        
 
       
