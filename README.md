@@ -74,6 +74,8 @@ Day 31: Still working on Javascript, didnt get through to many lessons today, go
 Day 32: Continued work on JavaScript
 
 Day 33: Dived in and worked more on JavaScript and tried to focus more after realizing that i'm overthinking it and making it more               difficult than it really is..
+
+Day 34 : Despite still being sick, continued to work on JavaScript, slowly but surely moving along.
        
 
       
