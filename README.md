@@ -76,6 +76,9 @@ Day 32: Continued work on JavaScript
 Day 33: Dived in and worked more on JavaScript and tried to focus more after realizing that i'm overthinking it and making it more               difficult than it really is..
 
 Day 34 : Despite still being sick, continued to work on JavaScript, slowly but surely moving along.
+
+Day 35: Updated my portfolio slightly and uploaded it to my site.
+        Taking a break from freecodecamp to read up on other resources and tutorials to help get a better understanding of JavaScript.
        
 
       
