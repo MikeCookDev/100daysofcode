@@ -79,6 +79,8 @@ Day 34 : Despite still being sick, continued to work on JavaScript, slowly but s
 
 Day 35: Updated my portfolio slightly and uploaded it to my site.
         Taking a break from freecodecamp to read up on other resources and tutorials to help get a better understanding of JavaScript.
+
+Day 36: Did a little bit of work with JavaScript and variables!
        
 
       
