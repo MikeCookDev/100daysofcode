@@ -82,7 +82,8 @@ Day 35: Updated my portfolio slightly and uploaded it to my site.
 
 Day 36: Did a little bit of work with JavaScript and variables!
 
-Day 37 : Worked on Variables, Data Types, Math Operators, Assignment Operators, Comparison Operators, Logical and Boolean Operators, and          String Operators.
+Day 37 : Worked on Variables, Data Types, Math Operators, Assignment Operators, Comparison Operators, Logical and Boolean Operators, String Operators,if statements and else if statements, the switch statement,for loop, while loop,do..while loop, and break/continue.
+         
        
 
       
