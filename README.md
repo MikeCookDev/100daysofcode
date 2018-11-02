@@ -84,7 +84,7 @@ Day 36: Did a little bit of work with JavaScript and variables!
 
 Day 37 : Worked on Variables, Data Types, Math Operators, Assignment Operators, Comparison Operators, Logical and Boolean Operators, String Operators,if statements and else if statements, the switch statement,for loop, while loop,do..while loop, and break/continue.
          
-       
+Day 38 :  Not much coding today, read a few articles and watched some video on javascript. Began working with functions.
 
       
       
