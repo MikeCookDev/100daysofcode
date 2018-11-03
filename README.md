@@ -88,7 +88,7 @@ Day 38 :  Not much coding today, read a few articles and watched some video on j
 
 Day 39 : Working on JavaScript;functions, parameters,return statements, and alert/prompt/confirm boxes.
 
-Day 40: Practicing objects in Javascript.
+Day 40: Practicing objects and core objects in Javascript.
 
       
       
