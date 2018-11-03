@@ -1,0 +1,15 @@
+body {
+	background-color: #999966;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+header {
+	font-size: 24px;
+	font-style: bold;
+}
+
+ul {
+	list-style: none;
+}
