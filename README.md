@@ -86,7 +86,7 @@ Day 37 : Worked on Variables, Data Types, Math Operators, Assignment Operators, 
          
 Day 38 :  Not much coding today, read a few articles and watched some video on javascript. Began working with functions.
 
-Day 39 : Working on JavaScript;functions, parameters,
+Day 39 : Working on JavaScript;functions, parameters,return statements, and alert/prompt/confirm boxes.
 
       
       
