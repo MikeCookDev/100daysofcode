@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day-40</title>
+	<link rel="stylesheet" type="text/css" href="day.css">
+</head>
+<body>
+	<header><strong>Day 40</strong></header>
+
+	<h2><em>What is DOM?</em></h2>
+	<p>When you open any webpage in a browser, the HTML of the page is loaded and rendered visually on the screen.</p>
+	<p>To accomplish that, the browser builds the Document Object Model of that page, which is an object oriented model of its logical structure.</p>
+	<p>The DOM of an HTML document can be represented as a nested set of boxes:</p>
+		<img src="https://api.sololearn.com/DownloadFile?id=2773" alt="">
+	<p>JavaScript can be used to manipulate the DOM of a page dynamically to add, delete and modify elements.</p>
+
+	<h2><em>DOM Tree</em></h2>
+	<p>The DOM represents a document as a tree structure.<br>
+	HTML elements become interrelated <strong>nodes</strong> in the tree.<br>
+	All those nodes in the tree have some kind of relations among each other. <br>
+	Nodes can have <strong>child</strong> nodes. Nodes on the same tree level are called <strong>siblings</strong>.<br></p>
+	<p>For example, consider the following structure:</p>
+		<img src="https://api.sololearn.com/DownloadFile?id=2773" alt="">
+	<p>For the example above:<br>
+		html has two children (head,body);<br>
+		head has one child (title) and one parent (html);<br>
+		title has one parent (head) and no children;<br>
+		body has two children (h1 and a) and one parent (html);<br></p>
+
+	<p><em>It is important to understand the relationships between elements in an HTML document in order to be able to manipulate them with JavaScript.</em></p>
+
+	<h3>The document Object</h3>
+		<p>There is a predefined document object in JavaScript, which can be used to access all elements on the DOM.<br>
+		In other words, the document object is the owner (or root) of all objects in your webpage.<br>
+		So, if you want to access objects in an HTML page, you always start with accessing the document object.<br></p>
+		<p><strong>For Example:</strong></p>
+			<p><code>document.body.innerHTML = "Some text";</code><p>
+		<p>As body is an element of the DOM, we can access it using the document object and change the content of the innerHTML property.</p>
+		<p><em>The innerHTML property can be used on almost all HTML elements to change its content.</em></p>
+
+	
+					
+	<script src="day_40_DOMevents.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
