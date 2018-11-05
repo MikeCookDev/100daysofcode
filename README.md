@@ -92,5 +92,7 @@ Day 40: Practicing objects and core objects in Javascript aswell as working with
 
 Day 41: Continued Praticing working on the Dom and events in JavaScript
 
+Day 41:WOrking on Handling events in Javascript
+
       
       
