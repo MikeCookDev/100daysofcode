@@ -90,5 +90,7 @@ Day 39 : Working on JavaScript;functions, parameters,return statements, and aler
 
 Day 40: Practicing objects and core objects in Javascript aswell as working with DOM and events.
 
+Day 41: Continued Praticing working on the Dom and events in JavaScript
+
       
       
