@@ -92,7 +92,9 @@ Day 40: Practicing objects and core objects in Javascript aswell as working with
 
 Day 41: Continued Praticing working on the Dom and events in JavaScript
 
-Day 41:Working on Handling events,event propagation,Created a basic Image Slider, and worked on form validation in Javascript
+Day 42:Working on Handling events,event propagation,Created a basic Image Slider, and worked on form validation in Javascript
+
+Day 43: Worked a bit with loops in JavaScript.
 
       
       
