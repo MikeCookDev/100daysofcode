@@ -96,5 +96,7 @@ Day 42:Working on Handling events,event propagation,Created a basic Image Slider
 
 Day 43: Worked a bit with loops in JavaScript.
 
+Day 44: Didnt do much coding today, got stuck on the profile lookup project 
+
       
       
