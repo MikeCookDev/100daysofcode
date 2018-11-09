@@ -98,5 +98,7 @@ Day 43: Worked a bit with loops in JavaScript.
 
 Day 44: Didnt do much coding today, got stuck on the profile lookup project 
 
+Day 45: Worked on generating random fractions and random whole numbers with JavaScript,random whole numbers within a range, the parseInt         function, and conditional(ternary) operators.
+
       
       
