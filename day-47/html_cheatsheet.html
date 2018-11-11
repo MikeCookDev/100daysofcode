@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Cheatsheet</title>
+
+	<link rel="stylesheet" type="text/css" href="html_cheatsheet.css">
+
+</head>
+<body>
+	<nav id="navbar">
+		<header>HTML</header>
+			<ul>
+				<a href="#HTML" class="nav-link">
+					<li>What is HTML?</li></a>
+				<a href="#Web_Structure" class="nav-link">
+					<li>The Web Structure</li></a>
+				<a href="#html_tag" class="nav-link">
+					<li>The &lt;html&gt; Tag</li></a>
+				<a href="#head_tag" class="nav-link">
+					<li>The &lt;head&gt; Tag</li></a>
+				<a href="#body_tag" class="nav-link">
+					<li>The &lt;body&gt; Tag</li></a>
+				<a href="#saving" class="nav-link">
+					<li>Saving Your File</li></a>
+				<a href="#paragraphs" class="nav-link">
+					<li>Paragraphs</li></a>
+				<a href="#Text_Formatting" class="nav-link">
+					<li>Text Formatting</li></a>
+				<a href="#Headings_Lines_Comments" class="nav-link">
+					<li>Headings,Lines, & Comments</li></a>
+				<a href="#Elements" class="nav-link">
+					<li>Elements</li></a>
+				<a href="#Attributes" class="nav-link">
+					<li>Attributes</li></a>
+				<a href="#Images" class="nav-link">
+					<li>Images</li></a>
+
+				</ul>
+	</nav>
+	   
+			<main id="main-doc">
+				<section class="main-section" id="HTML">
+					<header>What is HTML?</header>
+						<p>HTML stands for HyperText Markup Language.</p>
+
+						<p>Unlike a scripting or programming language that uses scripts to perform functions, a markup language uses tags to identify content. </p>
+
+						<p>Here is an example of an HTML tag:<br><code>&lt;p&gt; I'm a paragraph &lt;/p&gt;</code></p>
+				</section>
+
+				<section class="main-section" id="Web_Structure">
+					<header>The Web Structure</header>
+
+						<p>The ability to code using HTML is essential for any web professional. Acquiring this skill should be the starting point for anyone who is learning how to create content for the web. </p>
+
+						<h4>Modern Web Design</h4>
+						<p><strong>HTML</strong>: Structure<br>
+						   <strong>CSS</strong>: Presentation<br>
+						   <strong>JavaScript</strong>: Behavior<br>
+
+						   <br><strong>PHP or similar</strong>: Backend<br>
+						   <strong>CMS</strong>: Content Management<br>
+						</p>
+				</section>
+
+				<section class="main-section" id="html_tag">
+					<header>The &lt;html&gt; Tag</header>
+
+						<p>The structure of an HTML document has been compared with that of a sandwich. As a sandwich has two slices of bread, the HTML document has opening and closing HTML tags. </p>
+
+						<p>These tags, like the bread in a sandwich, surround everything else:<br>
+
+							<code>
+								&lt;html&gt;<br>
+							 	…<br>
+								&lt;/html&gt;<br>
+							</code>
+						</p>
+
+						<p>Everything in an HTML document is surrounded by the <code>&lt;html&gt;</code> tag.</p>
+				</section>
+
+				<section class="main-section" id="head_tag">
+					<header>The &lt;head&gt; Tag</header>
+
+						<p>
+							Immediately following the opening HTML tag, you'll find the <strong>head</strong> of the document, which is identified by opening and closing head tags. 
+						</p>
+						<p>
+						The head of an HTML file contains all of the <strong>non-visual elements</strong> that help make the page work.
+						</p>
+						<p>
+							<code>
+								&lt;html&gt;<br>
+								   &lt;head&gt;…&lt;/head&gt;<br>
+								&lt;/html&gt;<br>
+							</code>
+						</p>					
+				</section>
+
+				<section class="main-section" id="body_tag">
+					<header>The &lt;body&gt; Tag</header>
+						<p>The <strong>body</strong> tag follows the head tag.<br>
+						   All visual-structural elements are contained within the body tag. <br>
+						</p>
+						<p>Headings, paragraphs, lists, quotes, images, and links are just a few of the elements that can be contained within the body tag.
+						</p>
+						<p><strong>Basic HTML Structure:</strong><br>
+							<code>								
+								&lt;html&gt;<br>
+								   &lt;head&gt;
+								   &lt;/head&gt;<br>
+								   &lt;body&gt;
+								   &lt;/body&gt;<br>
+								&lt;/html&gt;<br>								
+							</code>
+						</p>
+						<p>The <code>&lt;body&gt;</code> tag defines the main content of the HTML document.</body>
+				</section>
+
+				<section class="main-section" id="title_tag">
+					<header>The &lt;title&gt; Tag</header>
+						<p>To place a title on the tab describing the web page, add a <code>&lt;title&gt;</code> element to your head section:
+							<code>
+								&lt;html&gt;<br>
+								   &lt;head&gt;<br>
+								      &lt;title&gt;first page&lt;/title&gt;<br>
+								   &lt;/head&gt;<br>
+								   &lt;body&gt;<br>
+								      This is a line of text. <br>
+								   &lt;/body&gt;<br>
+								&lt;/html&gt;<br>
+							</code>
+						</p>
+
+						<p>The title element is important because it describes the page and is used by search engines.</p>
+						
+				</section>
+
+				<section class="main-section" id="saving">
+					<header>Saving your file</header>
+						<p>HTML files are save with the <code>.html</code> extension<br>
+							For example:<br>
+							<code>
+								firstpage.html
+							</code>
+						</p>
+				</section>
+
+				<section class="main-section" id="paragraphs">
+					<header>Paragraphs</header>
+						<h4>The <code>&lt;p&gt;</code> element</h4>
+						<p>To create a paragraph, simply type in the <code>&lt;p&gt;</code> element with its opening and closing tags:<br>
+							<code>
+								&lt;html&gt;<br>
+								   &lt;head&gt;<br>
+								      &lt;title&gt;first page&lt;/title&gt;<br>
+								   &lt;/head&gt;<br>
+								   &lt;body&gt;<br>
+								     &lt;p&gt;This is a paragraph. &lt;/p&gt;<br>
+								     &lt;p&gt;This is another paragraph. &lt;/p&gt;<br>
+								   &lt;/body&gt;<br>
+								&lt;/html&gt;<br>
+							</code>
+						</p>
+						<p>Browsers automatically add an empty line before and after a paragraph.</p>
+
+						<h4>Single Line Break</h4>
+
+							<p>
+								Use the <code>&lt;br /&gt;</code>tag to add a single line of text without starting a new paragraph:<br/>
+								<code>
+									&lt;html&gt;<br/>
+									   &lt;head&gt;<br/>
+									      &lt;title&gt;first page&lt;/title&gt;<br/>
+									   &lt;/head&gt;<br/>
+									   &lt;body&gt;<br/>
+									      &lt;p&gt;This is a paragraph.&lt;/p&gt;<br/>
+									      &lt;p&gt;This is another paragraph. &lt;/p&gt;<br/>
+									      &lt;p&gt;This is &lt;br /&gt; a line break &lt;/p&gt;<br/>
+									   &lt;/body&gt;<br/>
+									&lt;/html&gt;
+								</code>
+							</p>
+						<p>
+							The <code>&lt;br /&gt;</code> element is an empty HTML element. It has no end tag.
+						</p>
+				</section>
+
+				<section class="main-section" id="Text_Formatting">
+					<header>Text Formatting</header>
+						<h4>Formatting Elements</h4>
+							<p>In HTML, there is a list of elements that specify text style.</p>
+
+							<p>Formatting elements were designed to display special types of text:<br/>
+								<code>
+									&lt;html&gt;<br/>
+									   &lt;head&gt;<br/>
+									      &lt;title&gt;first page&lt;/title&gt;<br/>
+									   &lt;/head&gt;<br/>
+									   &lt;body&gt;<br/>
+									      &lt;p&gt;This is regular text &lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;b&gt; bold text &lt;/b&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;big&gt; big text &lt;/big&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;i&gt; italic text &lt;/i&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;small&gt; small text &lt;/small&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;strong&gt; strong text &lt;/strong&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;sub&gt; subscripted text &lt;/sub&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;sup&gt; superscripted text &lt;/sup&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;ins&gt; inserted text &lt;/ins&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;del&gt; deleted text &lt;/del&gt;&lt;/p&gt;<br/>
+									   &lt;/body&gt;<br/>									  
+									&lt;/html&gt;<br/>
+								</code>
+							</p>
+
+							<p>The <code>&lt;strong&gt;</code> tag is a phrase tag. It defines important text.</p>
+
+							<p>Browsers display <code>&lt;strong&gt;</code> as <code>&lt;b&gt;</code>, and <code>&lt;em&gt;</code> as <code>&lt;i&gt;</code>.<br/>
+							   However, the meanings of these tags differ: <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> define bold and italic text, respectively, while <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> indicate that the text is <strong>"important"</strong>.
+							</p>						
+				</section>
+
+				<section class="main-section" id="Headings_Lines_Comments">
+					<header>Headings, Lines, and Comments</header>
+						<h4>Headings</h4>
+							<p>HTML includes six levels of headings, which are ranked according to importance. <br>
+							These are <code>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, and &lt;h6&gt;</code>.
+							</p>
+							<p>The following code defines all of the headings:<br>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									      &lt;h1&gt;This is heading 1&lt;/h1&gt;<br>
+									      &lt;h2&gt;This is heading 2&lt;/h2&gt;<br>
+									      &lt;h3&gt;This is heading 3&lt;/h3&gt;<br>
+									      &lt;h4&gt;This is heading 4&lt;/h4&gt;<br>
+									      &lt;h5&gt;This is heading 5&lt;/h5&gt;<br>
+									      &lt;h6&gt;This is heading 6&lt;/h6&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+							<p>It is not recommended that you use headings just to make the text big or bold, because search engines use headings to index the web page structure and content.</p>
+
+						<h4>Horizontal Lines</h4>
+						<p>To create a horizontal line, use the <code>&lt;hr /&gt;</code> tag.</p>
+						<p>
+							<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									      &lt;h1&gt;This is heading 1&lt;/h1&gt;<br>
+									      &lt;h2&gt;This is heading 2&lt;/h2&gt;<br>
+									      &lt;h3&gt;This is heading 3&lt;/h3&gt;<br>
+									      &lt;h4&gt;This is heading 4&lt;/h4&gt;<br>
+									      &lt;h5&gt;This is heading 5&lt;/h5&gt;<br>
+									      &lt;h6&gt;This is heading 6&lt;/h6&gt;<br>
+									      &lt;p&gt;This is a paragraph &lt;/p&gt;<br>
+										  &lt;hr /&gt;<br>
+										  &lt;p&gt;This is a paragraph &lt;/p&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+							</code>
+						</p>
+						<p>In HTML5, the <code>&lt;hr&gt;</code>tag defines a thematic break.</p>
+
+						<h4>Comments</h4>
+							<p>The browser does not display comments, but they help document the HTML and add descriptions, reminders, and other notes.</p>
+
+							<p>
+								<code>
+									&lt;!-- Your comment goes here --&gt;
+								</code>
+							</p>
+
+							<p>
+								For Example:<br>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									   	  &lt;p&gt;This is a paragraph &lt;/p&gt;<br>
+									      &lt;hr /&gt;<br>
+										  &lt;p&gt;This is a paragraph &lt;/p&gt;<br>
+										  &lt;!-- This is a comment, and shouldn't show up in the browser normally --&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+							<p>There is an exclamation point (!) in the opening tag, but not in the closing tag.</p>
+				</section>
+
+				<section class="main-section" id="Elements">
+					<header>Elements</header>
+						<h4>Elements</h4>
+							<p>
+								HTML documents are made up of HTML elements.<br>
+							   An HTML element is written using a <strong>start tag</strong> and an <strong>end tag</strong>, and with the <strong>content</strong> in between.
+							</p>
+							<p>
+								HTML documents consist of nested HTML elements. In the example below, the body element includes the <code>&lt;p&gt;</code> tags, the <code>&lt;br /&gt;</code> tag and the content, "This is a paragraph".
+							</p>
+							<p>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br> 
+									      &lt;p&gt;This is a paragraph &lt;br /&gt;&lt;/p&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+							<p>Some HTML elements (like the <code>&lt;br /&gt;</code> tag) do not have end tags.</p>
+
+							<p>Some elements are quite small. Since you can't put contents within a break tag, and you don't have an opening and closing break tag, it’s a separate, single element. </p>
+
+							<p>So HTML is really scripting with elements within elements.</p>
+
+							<p>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br> 
+									      &lt;p&gt;This is a paragraph &lt;/p&gt;<br>
+									      &lt;p&gt;This is a &lt;br /&gt; line break.&lt;/p&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+				</section>
+
+				<section class="main-section" id="Attributes">
+					<header>Attributes</header>
+						<h4>HTML Attributes</h4>
+							<p>
+								Attributes provide <strong>additional information</strong> about an element or a tag, while also <strong>modifying</strong> them.<br> Most attributes have a value; the value modifies the attribute.
+							</p>
+							<p align="center">
+								<code>
+									&lt;p align="center"&gt;<br> 
+									   This text is aligned to center<br>
+									&lt;/p&gt;<br>
+								</code>
+							</p>
+							<p>
+								In this example, the value of "center" indicates that the content within the p element should be aligned to the center.
+							</p>
+							<p>
+								Attributes are always specified in the start tag, and they appear in name="value" pairs.
+							</p>
+
+						<h4>Attribute Measurements</h4>
+							<p>As an example, we can modify the horizontal line so it has a width of 50 pixels.</p>
+							<p>This can be done by using the width attribute:<br>
+								<code>
+									&lt;hr <strong>width</strong>="50<strong>px</strong>" /&gt;
+								</code>
+							</p>
+							<p>
+								An element's width can also be defined using percentages:<br>
+								<code>
+									&lt;hr <strong>width</strong>="50<strong>%</strong>" /&gt;
+								</code>
+							</p>
+							<p>An element's width can be defined using pixels or percentages.</p>
+
+						<h4>The Align Attribute</h4>
+							<p>The <strong>align</strong> attribute is used to specify how the text is aligned.</p>
+
+							<p>In the example below, we have a paragraph that is aligned to the center, and a line that is aligned to the right.</p>
+
+							<p>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;Attributes&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									      &lt;p align="center"&gt;This is a text &lt;br /&gt;<br>
+									         &lt;hr width="10%" align="right" /&gt; This is also a text.<br>
+									      &lt;/p&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+						<p>The align attribute of <code>&lt;p&gt;</code> is not supported in HTML5.</p>						
+				</section>
+
+				<section class="main-section" id="Images">
+					<header>Images</header>
+						<h4>The <code> &lt;img&gt; </code>Tag</h4>
+							<p>The <code>&lt;img&gt;</code> tag is used to insert an image. It contains only attributes, and does not have a closing tag.</p>
+							<p>The image's URL (address) can be defined using the <strong>src</strong> attribute.</p>
+							<p>The HTML image syntax looks like this:<br>
+								<code>&lt;img src="image.jpg" /&gt;</code><br>
+							</p>
+							<p>The alt attribute specifies an alternate text for an image.</p>
+
+						<h4>Image Location</h4>
+							<p>You need to put in the <strong>image location</strong> for the src attribute that is between the quotation marks.</p>
+
+							<p>For example, if you have a photo named "tree.jpg" in the same folder as the HTML file, your code should look like this:<br>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br> 
+									      &lt;img src="tree.jpg" alt="" /&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+
+							<p>
+								In case the image cannot be displayed, the alt attribute specifies an alternate text that describes the image in words. The alt attribute is <strong>required</strong>.
+							</p>
+
+						<h4>Image Resizing</h4>
+							<p>To define the image size, use the width and height attributes.<br>
+							   The value can be specified in <strong>pixels</strong> or as a <strong>percentage</strong>:<br>
+
+							   <code>
+							   		<html>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									      &lt;img src="tree.jpg" <strong>height</strong>="150<strong>px</strong>" <strong>width</strong>="150<strong>px</strong>" alt="" /&gt;<br>
+									      &lt;!-- or --&gt;<br>
+									      &lt;img src="tree.jpg" <strong>height</strong>="50%" <strong>width</strong>="50%" alt="" /&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+
+							<p>Loading images takes time. Using large images can slow down your page, so use them with care.</p>
+
+						<h4>Image Border</h4>
+							<p>By default, an image has no borders. Use the border attribute within the image tag to create a border around the image.</p>
+
+							<p>
+								<code>
+									&lt;img src="tree.jpg" height="150px" width="150px" <strong>border</strong>="1px" alt="" /&gt; 
+								</code>
+							</p>
+
+							<p>By default, Internet Explorer 9, and its earlier versions, display a border around an image unless a border attribute is defined.</p>
+				</section>
+
+				
+			</main>
+	
+</body>
