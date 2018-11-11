@@ -102,5 +102,6 @@ Day 45: Worked on generating random fractions and random whole numbers with Java
 
 Day 46: Worked on my cheatsheet site pages
 
+Day 47: Worked quite a bit with my cheatsheets project.
       
       
