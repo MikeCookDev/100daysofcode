@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Basics Cheatsheet</title>
+
+	<link rel="stylesheet" type="text/css" href="html_cheatsheet.css">
+
+</head>
+<body>
+	<nav id="navbar">
+		<header>HTML Basics</header>
+			<ul>
+				<a href="#HTML" class="nav-link">
+					<li>What is HTML?</li></a>
+				<a href="#Web_Structure" class="nav-link">
+					<li>The Web Structure</li></a>
+				<a href="#html_tag" class="nav-link">
+					<li>The &lt;html&gt; Tag</li></a>
+				<a href="#head_tag" class="nav-link">
+					<li>The &lt;head&gt; Tag</li></a>
+				<a href="#body_tag" class="nav-link">
+					<li>The &lt;body&gt; Tag</li></a>
+				<a href="#saving" class="nav-link">
+					<li>Saving Your File</li></a>
+				<a href="#paragraphs" class="nav-link">
+					<li>Paragraphs</li></a>
+				<a href="#Text_Formatting" class="nav-link">
+					<li>Text Formatting</li></a>
+				<a href="#Headings_Lines_Comments" class="nav-link">
+					<li>Headings,Lines, & Comments</li></a>
+				<a href="#Elements" class="nav-link">
+					<li>Elements</li></a>
+				<a href="#Attributes" class="nav-link">
+					<li>Attributes</li></a>
+				<a href="#Images" class="nav-link">
+					<li>Images</li></a>
+				<a href="#Links" class="nav-link">
+					<li>Links</li></a>
+				<a href="#Lists" class="nav-link">
+					<li>Lists</li></a>
+				<a href="#Tables" class="nav-link">
+					<li>Tables</li></a>
+				<a href="#inline_block_elements" class="nav-link">
+					<li>Inline and Block Elements</li></a>
+				<a href="#Forms" class="nav-link">
+					<li>Forms</li></a>
+				<a href="#HTML_Colors" class="nav-link">
+					<li>HTML Colors</li></a>
+				<a href="#Frames" class="nav-link">
+					<li>Frames</li></a>
+					
+
+				</ul>
+	</nav>
+	   
+			<main id="main-doc">
+				<section class="main-section" id="HTML">
+					<header>What is HTML?</header>
+						<p>HTML stands for HyperText Markup Language.</p>
+
+						<p>Unlike a scripting or programming language that uses scripts to perform functions, a markup language uses tags to identify content. </p>
+
+						<p>Here is an example of an HTML tag:<br><code>&lt;p&gt; I'm a paragraph &lt;/p&gt;</code></p>
+				</section>
+
+				<section class="main-section" id="Web_Structure">
+					<header>The Web Structure</header>
+
+						<p>The ability to code using HTML is essential for any web professional. Acquiring this skill should be the starting point for anyone who is learning how to create content for the web. </p>
+
+						<h4>Modern Web Design</h4>
+						<p><strong>HTML</strong>: Structure<br>
+						   <strong>CSS</strong>: Presentation<br>
+						   <strong>JavaScript</strong>: Behavior<br>
+
+						   <br><strong>PHP or similar</strong>: Backend<br>
+						   <strong>CMS</strong>: Content Management<br>
+						</p>
+				</section>
+
+				<section class="main-section" id="html_tag">
+					<header>The &lt;html&gt; Tag</header>
+
+						<p>The structure of an HTML document has been compared with that of a sandwich. As a sandwich has two slices of bread, the HTML document has opening and closing HTML tags. </p>
+
+						<p>These tags, like the bread in a sandwich, surround everything else:<br>
+
+							<code>
+								&lt;html&gt;<br>
+							 	…<br>
+								&lt;/html&gt;<br>
+							</code>
+						</p>
+
+						<p>Everything in an HTML document is surrounded by the <code>&lt;html&gt;</code> tag.</p>
+				</section>
+
+				<section class="main-section" id="head_tag">
+					<header>The &lt;head&gt; Tag</header>
+
+						<p>
+							Immediately following the opening HTML tag, you'll find the <strong>head</strong> of the document, which is identified by opening and closing head tags. 
+						</p>
+						<p>
+						The head of an HTML file contains all of the <strong>non-visual elements</strong> that help make the page work.
+						</p>
+						<p>
+							<code>
+								&lt;html&gt;<br>
+								   &lt;head&gt;…&lt;/head&gt;<br>
+								&lt;/html&gt;<br>
+							</code>
+						</p>					
+				</section>
+
+				<section class="main-section" id="body_tag">
+					<header>The &lt;body&gt; Tag</header>
+						<p>The <strong>body</strong> tag follows the head tag.<br>
+						   All visual-structural elements are contained within the body tag. <br>
+						</p>
+						<p>Headings, paragraphs, lists, quotes, images, and links are just a few of the elements that can be contained within the body tag.
+						</p>
+						<p><strong>Basic HTML Structure:</strong><br>
+							<code>								
+								&lt;html&gt;<br>
+								   &lt;head&gt;
+								   &lt;/head&gt;<br>
+								   &lt;body&gt;
+								   &lt;/body&gt;<br>
+								&lt;/html&gt;<br>								
+							</code>
+						</p>
+						<p>The <code>&lt;body&gt;</code> tag defines the main content of the HTML document.</body>
+				</section>
+
+				<section class="main-section" id="title_tag">
+					<header>The &lt;title&gt; Tag</header>
+						<p>To place a title on the tab describing the web page, add a <code>&lt;title&gt;</code> element to your head section:
+							<code>
+								&lt;html&gt;<br>
+								   &lt;head&gt;<br>
+								      &lt;title&gt;first page&lt;/title&gt;<br>
+								   &lt;/head&gt;<br>
+								   &lt;body&gt;<br>
+								      This is a line of text. <br>
+								   &lt;/body&gt;<br>
+								&lt;/html&gt;<br>
+							</code>
+						</p>
+
+						<p>The title element is important because it describes the page and is used by search engines.</p>
+						
+				</section>
+
+				<section class="main-section" id="saving">
+					<header>Saving your file</header>
+						<p>HTML files are save with the <code>.html</code> extension<br>
+							For example:<br>
+							<code>
+								firstpage.html
+							</code>
+						</p>
+				</section>
+
+				<section class="main-section" id="paragraphs">
+					<header>Paragraphs</header>
+						<h4>The <code>&lt;p&gt;</code> element</h4>
+						<p>To create a paragraph, simply type in the <code>&lt;p&gt;</code> element with its opening and closing tags:<br>
+							<code>
+								&lt;html&gt;<br>
+								   &lt;head&gt;<br>
+								      &lt;title&gt;first page&lt;/title&gt;<br>
+								   &lt;/head&gt;<br>
+								   &lt;body&gt;<br>
+								     &lt;p&gt;This is a paragraph. &lt;/p&gt;<br>
+								     &lt;p&gt;This is another paragraph. &lt;/p&gt;<br>
+								   &lt;/body&gt;<br>
+								&lt;/html&gt;<br>
+							</code>
+						</p>
+						<p>Browsers automatically add an empty line before and after a paragraph.</p>
+
+						<h4>Single Line Break</h4>
+
+							<p>
+								Use the <code>&lt;br /&gt;</code>tag to add a single line of text without starting a new paragraph:<br/>
+								<code>
+									&lt;html&gt;<br/>
+									   &lt;head&gt;<br/>
+									      &lt;title&gt;first page&lt;/title&gt;<br/>
+									   &lt;/head&gt;<br/>
+									   &lt;body&gt;<br/>
+									      &lt;p&gt;This is a paragraph.&lt;/p&gt;<br/>
+									      &lt;p&gt;This is another paragraph. &lt;/p&gt;<br/>
+									      &lt;p&gt;This is &lt;br /&gt; a line break &lt;/p&gt;<br/>
+									   &lt;/body&gt;<br/>
+									&lt;/html&gt;
+								</code>
+							</p>
+						<p>
+							The <code>&lt;br /&gt;</code> element is an empty HTML element. It has no end tag.
+						</p>
+				</section>
+
+				<section class="main-section" id="Text_Formatting">
+					<header>Text Formatting</header>
+						<h4>Formatting Elements</h4>
+							<p>In HTML, there is a list of elements that specify text style.</p>
+
+							<p>Formatting elements were designed to display special types of text:<br/>
+								<code>
+									&lt;html&gt;<br/>
+									   &lt;head&gt;<br/>
+									      &lt;title&gt;first page&lt;/title&gt;<br/>
+									   &lt;/head&gt;<br/>
+									   &lt;body&gt;<br/>
+									      &lt;p&gt;This is regular text &lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;b&gt; bold text &lt;/b&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;big&gt; big text &lt;/big&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;i&gt; italic text &lt;/i&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;small&gt; small text &lt;/small&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;strong&gt; strong text &lt;/strong&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;sub&gt; subscripted text &lt;/sub&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;sup&gt; superscripted text &lt;/sup&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;ins&gt; inserted text &lt;/ins&gt;&lt;/p&gt;<br/>
+									      &lt;p&gt;&lt;del&gt; deleted text &lt;/del&gt;&lt;/p&gt;<br/>
+									   &lt;/body&gt;<br/>									  
+									&lt;/html&gt;<br/>
+								</code>
+							</p>
+
+							<p>The <code>&lt;strong&gt;</code> tag is a phrase tag. It defines important text.</p>
+
+							<p>Browsers display <code>&lt;strong&gt;</code> as <code>&lt;b&gt;</code>, and <code>&lt;em&gt;</code> as <code>&lt;i&gt;</code>.<br/>
+							   However, the meanings of these tags differ: <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> define bold and italic text, respectively, while <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> indicate that the text is <strong>"important"</strong>.
+							</p>						
+				</section>
+
+				<section class="main-section" id="Headings_Lines_Comments">
+					<header>Headings, Lines, and Comments</header>
+						<h4>Headings</h4>
+							<p>HTML includes six levels of headings, which are ranked according to importance. <br>
+							These are <code>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, and &lt;h6&gt;</code>.
+							</p>
+							<p>The following code defines all of the headings:<br>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									      &lt;h1&gt;This is heading 1&lt;/h1&gt;<br>
+									      &lt;h2&gt;This is heading 2&lt;/h2&gt;<br>
+									      &lt;h3&gt;This is heading 3&lt;/h3&gt;<br>
+									      &lt;h4&gt;This is heading 4&lt;/h4&gt;<br>
+									      &lt;h5&gt;This is heading 5&lt;/h5&gt;<br>
+									      &lt;h6&gt;This is heading 6&lt;/h6&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+							<p>It is not recommended that you use headings just to make the text big or bold, because search engines use headings to index the web page structure and content.</p>
+
+						<h4>Horizontal Lines</h4>
+						<p>To create a horizontal line, use the <code>&lt;hr /&gt;</code> tag.</p>
+						<p>
+							<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									      &lt;h1&gt;This is heading 1&lt;/h1&gt;<br>
+									      &lt;h2&gt;This is heading 2&lt;/h2&gt;<br>
+									      &lt;h3&gt;This is heading 3&lt;/h3&gt;<br>
+									      &lt;h4&gt;This is heading 4&lt;/h4&gt;<br>
+									      &lt;h5&gt;This is heading 5&lt;/h5&gt;<br>
+									      &lt;h6&gt;This is heading 6&lt;/h6&gt;<br>
+									      &lt;p&gt;This is a paragraph &lt;/p&gt;<br>
+										  &lt;hr /&gt;<br>
+										  &lt;p&gt;This is a paragraph &lt;/p&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+							</code>
+						</p>
+						<p>In HTML5, the <code>&lt;hr&gt;</code>tag defines a thematic break.</p>
+
+						<h4>Comments</h4>
+							<p>The browser does not display comments, but they help document the HTML and add descriptions, reminders, and other notes.</p>
+
+							<p>
+								<code>
+									&lt;!-- Your comment goes here --&gt;
+								</code>
+							</p>
+
+							<p>
+								For Example:<br>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									   	  &lt;p&gt;This is a paragraph &lt;/p&gt;<br>
+									      &lt;hr /&gt;<br>
+										  &lt;p&gt;This is a paragraph &lt;/p&gt;<br>
+										  &lt;!-- This is a comment, and shouldn't show up in the browser normally --&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+							<p>There is an exclamation point (!) in the opening tag, but not in the closing tag.</p>
+				</section>
+
+				<section class="main-section" id="Elements">
+					<header>Elements</header>
+						<h4>Elements</h4>
+							<p>
+								HTML documents are made up of HTML elements.<br>
+							   An HTML element is written using a <strong>start tag</strong> and an <strong>end tag</strong>, and with the <strong>content</strong> in between.
+							</p>
+							<p>
+								HTML documents consist of nested HTML elements. In the example below, the body element includes the <code>&lt;p&gt;</code> tags, the <code>&lt;br /&gt;</code> tag and the content, "This is a paragraph".
+							</p>
+							<p>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br> 
+									      &lt;p&gt;This is a paragraph &lt;br /&gt;&lt;/p&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+							<p>Some HTML elements (like the <code>&lt;br /&gt;</code> tag) do not have end tags.</p>
+
+							<p>Some elements are quite small. Since you can't put contents within a break tag, and you don't have an opening and closing break tag, it’s a separate, single element. </p>
+
+							<p>So HTML is really scripting with elements within elements.</p>
+
+							<p>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br> 
+									      &lt;p&gt;This is a paragraph &lt;/p&gt;<br>
+									      &lt;p&gt;This is a &lt;br /&gt; line break.&lt;/p&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+				</section>
+
+				<section class="main-section" id="Attributes">
+					<header>Attributes</header>
+						<h4>HTML Attributes</h4>
+							<p>
+								Attributes provide <strong>additional information</strong> about an element or a tag, while also <strong>modifying</strong> them.<br> Most attributes have a value; the value modifies the attribute.
+							</p>
+							<p align="center">
+								<code>
+									&lt;p align="center"&gt;<br> 
+									   This text is aligned to center<br>
+									&lt;/p&gt;<br>
+								</code>
+							</p>
+							<p>
+								In this example, the value of "center" indicates that the content within the p element should be aligned to the center.
+							</p>
+							<p>
+								Attributes are always specified in the start tag, and they appear in name="value" pairs.
+							</p>
+
+						<h4>Attribute Measurements</h4>
+							<p>As an example, we can modify the horizontal line so it has a width of 50 pixels.</p>
+							<p>This can be done by using the width attribute:<br>
+								<code>
+									&lt;hr <strong>width</strong>="50<strong>px</strong>" /&gt;
+								</code>
+							</p>
+							<p>
+								An element's width can also be defined using percentages:<br>
+								<code>
+									&lt;hr <strong>width</strong>="50<strong>%</strong>" /&gt;
+								</code>
+							</p>
+							<p>An element's width can be defined using pixels or percentages.</p>
+
+						<h4>The Align Attribute</h4>
+							<p>The <strong>align</strong> attribute is used to specify how the text is aligned.</p>
+
+							<p>In the example below, we have a paragraph that is aligned to the center, and a line that is aligned to the right.</p>
+
+							<p>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;Attributes&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									      &lt;p align="center"&gt;This is a text &lt;br /&gt;<br>
+									         &lt;hr width="10%" align="right" /&gt; This is also a text.<br>
+									      &lt;/p&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+						<p>The align attribute of <code>&lt;p&gt;</code> is not supported in HTML5.</p>						
+				</section>
+
+				<section class="main-section" id="Images">
+					<header>Images</header>
+						<h4>The <code> &lt;img&gt; </code>Tag</h4>
+							<p>The <code>&lt;img&gt;</code> tag is used to insert an image. It contains only attributes, and does not have a closing tag.</p>
+							<p>The image's URL (address) can be defined using the <strong>src</strong> attribute.</p>
+							<p>The HTML image syntax looks like this:<br>
+								<code>&lt;img src="image.jpg" /&gt;</code><br>
+							</p>
+							<p>The alt attribute specifies an alternate text for an image.</p>
+
+						<h4>Image Location</h4>
+							<p>You need to put in the <strong>image location</strong> for the src attribute that is between the quotation marks.</p>
+
+							<p>For example, if you have a photo named "tree.jpg" in the same folder as the HTML file, your code should look like this:<br>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br> 
+									      &lt;img src="tree.jpg" alt="" /&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+
+							<p>
+								In case the image cannot be displayed, the alt attribute specifies an alternate text that describes the image in words. The alt attribute is <strong>required</strong>.
+							</p>
+
+						<h4>Image Resizing</h4>
+							<p>To define the image size, use the width and height attributes.<br>
+							   The value can be specified in <strong>pixels</strong> or as a <strong>percentage</strong>:<br>
+
+							   <code>
+							   		<html>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									      &lt;img src="tree.jpg" <strong>height</strong>="150<strong>px</strong>" <strong>width</strong>="150<strong>px</strong>" alt="" /&gt;<br>
+									      &lt;!-- or --&gt;<br>
+									      &lt;img src="tree.jpg" <strong>height</strong>="50%" <strong>width</strong>="50%" alt="" /&gt;<br>
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+
+							<p>Loading images takes time. Using large images can slow down your page, so use them with care.</p>
+
+						<h4>Image Border</h4>
+							<p>By default, an image has no borders. Use the border attribute within the image tag to create a border around the image.</p>
+
+							<p>
+								<code>
+									&lt;img src="tree.jpg" height="150px" width="150px" <strong>border</strong>="1px" alt="" /&gt; 
+								</code>
+							</p>
+
+							<p>By default, Internet Explorer 9, and its earlier versions, display a border around an image unless a border attribute is defined.</p>
+				</section>
+
+				<section class="main-section" id="Links">
+					<header>Links</header>
+						<h4>The <code> &lt;a&gt; </code>Tag</h4>
+							<p>
+								Links are also an integral part of every web page. You can add links to text or images that will enable the user to click on them in order to be directed to another file or webpage.
+								In HTML, links are defined using the <code>&lt;a&gt;</code> tag.
+							</p>
+
+							<p>
+								Use the <strong>href</strong> attribute to define the link's destination address:<br>
+								<code>&lt;a href=""&gt;&lt;/a&gt;</code>
+							</p>
+							<p>
+								To link an image to another document, simply nest the <code>&lt;img&gt;</code> tag inside <code>&lt;a&gt;</code> tags.
+							</p>
+						<h4>Creating a link</h4>
+							<p>
+								In the example below, a link to Googles website is defined:<br>
+								<code>
+									&lt;a href="https://www.google.com/"&gt; Google &lt;/a&gt;<br>
+								</code>
+							</p>
+							<p>
+								Once the code has been saved, "Google" will display as a link:<br>
+								<a href="https://www.google.com/"> Google </a><br>
+								Clicking on "Google" redirects you to https://www.google.com/<br>
+							</p>
+							<p>Links can be either absolute or relative.</p>
+						<h4>The target Attribute</h4>
+							<p>The <strong>target</strong> attribute specifies where to open the linked document.<br>
+							   Giving a <strong>_blank</strong> value to your attribute will have the link open in a new window or new tab:<br>
+							  <code>
+							  	&lt;a href="https://www.google.com/" target="_blank"&gt;<br>
+								   Google<br>
+								&lt;/a&gt;<br>
+							  </code>
+							</p>
+							<p>A visited link is usually underlined and purple.</p>
+				</section>
+				<section class="main-section" id="Lists">
+					<header>Lists</header>
+						<h4>HTML Ordered Lists</h4>
+							<p>
+								An ordered list starts with the <code>&lt;ol&gt;</code> tag, and each list item is defined by the <code>&lt;li&gt;</code> tag.<br>
+								Here is an example of an ordered list:<br>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									      &lt;ol&gt;<br>
+									        &lt;li&gt;Red&lt;/li&gt;<br>
+									        &lt;li&gt;Blue&lt;/li&gt;<br>
+									        &lt;li&gt;Green&lt;/li&gt;<br>
+									      &lt;/ol&gt;<br>  
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+							<p>The list items will be automatically marked with numbers.</p>
+						<h4>HTML Unordered List</h4>
+							<p>An unordered list starts with the <code>&lt;ul&gt;</code> tag.</p>
+							<p>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br>
+									      &lt;title&gt;first page&lt;/title&gt;<br>
+									   &lt;/head&gt;<br>
+									   &lt;body&gt;<br>
+									      &lt;ul&gt;<br>
+									        &lt;li&gt;Red&lt;/li&gt;<br>
+									        &lt;li&gt;Blue&lt;/li&gt;<br>
+									        &lt;li&gt;Green&lt;/li&gt;<br>
+									      &lt;/ul&gt;<br>  
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+							<p>The list items will be marked with bullets.</p>
+				</section>
+				<section class="main-section" id="Tables">
+					<header>Tables</header>
+						<h4>Creating a Table</h4>
+							<p>
+								Tables are defined by using the <code>&lt;table&gt;</code> tag. <br>
+								Tables are divided into table rows with the <code>&lt;tr&gt;</code> tag.<br>
+								Table rows are divided into table columns (table data) with the <code>&lt;td&gt;</code> tag.<br>
+							</p>
+							<p>Here is an example of a table with <strong>one row</strong> and <strong>three columns</strong>:<br>
+								<code>
+									&lt;table&gt;<br>
+									   &lt;tr&gt;<br>
+									      &lt;td&gt;&lt;/td&gt;<br>
+									      &lt;td&gt;&lt;/td&gt;<br>
+									      &lt;td&gt;&lt;/td&gt;<br>
+									   &lt;/tr&gt;<br>
+									&lt;/table&gt;<br>
+								</code>
+							</p>
+							<p>Table data tags <code>&lt;td&gt;</code> act as data containers within the table.<br>
+							   They can contain all sorts of HTML elements, such as text, images, lists, other tables, and so on.
+							</p>
+						<h4>The border and colspan Attributes</h4>
+							<p>
+								A border can be added using the <strong>border</strong> attribute:<br>
+								<code>&lt;table border="2"&gt;</code>
+							</p>
+							<p>
+								A table <strong>cell</strong> can span two or more columns:<br>
+
+								<code>
+									&lt;table border="2"&gt;<br>
+									   &lt;tr&gt;<br>
+									      &lt;td&gt;Red&lt;/td&gt;<br>
+									      &lt;td&gt;Blue&lt;/td&gt;<br>
+									      &lt;td&gt;Green&lt;/td&gt;<br>
+									   &lt;/tr&gt;<br>
+									   &lt;tr&gt;<br>
+									      &lt;td&gt;&lt;br /&gt;&lt;/td&gt;<br>
+									      &lt;td <strong>colspan</strong>="2"&gt;&lt;br /&gt;&lt;/td&gt;<br>
+									   &lt;/tr&gt;<br>
+									&lt;/table&gt;<br>
+								</code>
+							</p>
+							<p>The border attribute is not supported in HTML5.</p>
+						<h4>Colspan Color</h4>
+							<p>The example below demonstrates the <strong>colspan</strong> attribute in action:<br>
+								<code>
+									&lt;table border="2"&gt;<br>
+									   &lt;tr&gt;<br>
+									      &lt;td&gt;Red&lt;/td&gt;<br>
+									      &lt;td&gt;Blue&lt;/td&gt;<br>
+									      &lt;td&gt;Green&lt;/td&gt;<br>
+									   &lt;/tr&gt;<br>
+									   &lt;tr&gt;<br>
+									      &lt;td&gt;Yellow&lt;/td&gt;<br>
+									      &lt;td colspan="2"&gt;Orange&lt;/td&gt;<br>
+									   &lt;/tr&gt;<br>
+									&lt;/table&gt;<br>
+								</code>
+							</p>
+							<p>To make a cell span more than one row, use the <strong>rowspan</strong> attribute.</p>
+						<h4>The align and bgcolor Attributes</h4>
+							<p>To change your table's position, use the <strong>align</strong> attribute inside your table tag:<br>
+								<code>
+									&lt;table align="center"&gt; 
+								</code>
+							</p>
+							<p>Now let's specify a background color of red for a table cell. To do that, just use the bgcolor attribute.<br>
+								<code>
+									&lt;table border="2"&gt;<br>
+									   &lt;tr&gt;<br>
+									      &lt;td <strong>bgcolor</strong>="red"&gt;Red&lt;/td&gt;<br>
+									      &lt;td&gt;Blue&lt;/td&gt;<br>
+									      &lt;td&gt;Green&lt;/td&gt;<br>
+									   &lt;/tr&gt;<br>
+									   &lt;tr&gt;<br>
+									      &lt;td&gt;Yellow&lt;/td&gt;<br>
+									      &lt;td colspan="2"&gt;Orange&lt;/td&gt;<br>
+									   &lt;/tr&gt;<br>
+									&lt;/table&gt;<br>
+								</code>
+							</p>
+							<p>In the case of styling elements, CSS is more effective than HTML. </p>
+				</section>
+				<section class="main-section" id="inline_block_elements">
+					<header>Inline and Block Elements</header>
+						<h4>Types of Elements</h4>
+							<p>
+								In HTML, most elements are defined as <strong>block level</strong> or <strong>inline</strong> elements.<br>
+								Block level elements start from a new line.<br>
+								<strong>For example:</strong>
+								<code> &lt;h1&gt;, &lt;form&gt;, &lt;li&gt;, &lt;ol&gt;, &lt;ul&gt;, &lt;p&gt;, &lt;pre&gt;, &lt;table&gt;, &lt;div&gt;, etc.</code><br>
+							</p>
+							<p>
+								Inline elements are normally displayed without line breaks. <br>
+								<strong>For example</strong>:
+								<code>
+								 &lt;b&gt;, &lt;a&gt;, &lt;strong&gt;, &lt;img&gt;, &lt;input&gt;, &lt;em&gt;, &lt;span&gt;, etc.
+								</code>
+							</p>
+							<p>
+								The <code>&lt;div&gt;</code> element is a block-level element that is often used as a <strong>container for other HTML elements</strong>.<br>
+								When used together with some CSS styling, the <div> element can be used to style blocks of content:<br>
+									<code>
+										&lt;html&gt;<br>
+										  &lt;body&gt;<br>
+										    &lt;h1&gt;Headline&lt;/h1&gt;<br>
+										    <strong>&lt;div style="background-color:green; color:white; padding:20px;"&gt;</strong><br>
+										      &lt;p&gt;Some paragraph text goes here.&lt;/p&gt;<br>
+										      &lt;p&gt;Another paragraph goes here.&lt;/p&gt;<br>
+										    <strong>&lt;/div&gt;</strong><br>
+										  &lt;/body&gt;<br>
+										&lt;/html&gt;<br>
+									</code>
+							</p>
+							<p>
+								Similarly, the <strong><code>&lt;span&gt;</code></strong> element is an inline element that is often used as a container for some text.<br>
+								When used together with CSS, the <code>&lt;span&gt;</code> element can be used to style <strong>parts of the text</strong>:<br>
+
+								<code>
+									&lt;html&gt;<br>
+									  &lt;body&gt;<br>
+									    &lt;h2&gt;Some <br>
+									      <strong>&lt;span style="color:red"&gt;</strong>Important<strong>&lt;/span&gt;</strong><br>
+									    Message&lt;/h2&gt;<br>
+									  &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+							<p>
+								<strong>Summary</strong><br>
+									The <code>&lt;div&gt;</code> element defines a block-level section in a document.<br>
+									The <code>&lt;span&gt;</code> element defines an inline section in a document.<br>
+							</p>
+
+							<p>
+								Other elements can be used either as block level elements or inline elements. This includes the following elements:<br>
+								<strong>APPLET</strong> - embedded Java applet<br>
+								<strong>IFRAME</strong> - Inline frame<br>
+								<strong>INS</strong> - inserted text<br>
+								<strong>MAP</strong> - image map<br>
+								<strong>OBJECT</strong> - embedded object<br>
+								<strong>SCRIPT</strong> - script within an HTML document<br>
+							</p>
+							<p>
+								You can insert inline elements inside block elements. For example, you can have multiple <strong><code>&lt;span&gt;</code></strong> elements inside a <strong><code>&lt;div&gt;</code></strong> element.
+							</p>
+							<p>
+								Inline elements cannot contain any block level elements.
+							</p>
+				</section>
+				<section class="main-section" id="Forms">
+					<header>Forms</header>
+						<h4>The <code>&lt;form&gt;</code> Element</h4>
+							<p>
+								HTML forms are used to collect information from the user.<br>
+								Forms are defined using the <code>&lt;form&gt;</code> element, with its opening and closing tags:<br>
+								<code>
+									&lt;body&gt;<br>
+									   <strong>&lt;form&gt;…&lt;/form&gt;</strong><br>
+									&lt;/body&gt;<br>
+								</code>
+							</p>
+
+							<p>
+								Use the <strong>action</strong> attribute to point to a webpage that will load after the user submits the form.
+							</p>
+							<p>
+								<code>
+									<strong>&lt;form action</strong>="https://www.google.com/"&gt; <br>
+									<strong>&lt;/form&gt;</strong>
+								</code>
+							</p>
+							<p>
+								Usually the form is submitted to a web page on a web server.
+							</p>
+						<h4>The method and name Attributes</h4>
+							<p>
+								The <strong>method attribute</strong> specifies the HTTP method (<strong>GET</strong> or <strong>POST</strong>) to be used when forms are submitted (see below for description):<br>
+
+								<br><code>
+									&lt;form action="url" <strong>method="GET"</strong>&gt;<br>
+
+									<br>&lt;form action="url" <strong>method="POST"</strong>&gt;	
+								</code>
+							</p>
+							<p>
+								When you use <strong>GET</strong>, the form data will be visible in the page address.
+							</p>
+							<p>
+								Use <strong>POST</strong> if the form is updating data, or includes sensitive information (passwords).<br>
+								POST offers better security because the submitted data is not visible in the page address.
+							</p>
+
+							<p>
+								To take in user input, you need the corresponding form elements, such as text fields. The <code>&lt;input&gt;</code> element has many variations, depending on the type attribute. It can be a text, password, radio, URL, submit, etc. 
+							</p>
+							<p>
+								The example below shows a form requesting a username and password:<br>
+							<br><code>
+									&lt;form&gt;<br>
+									   &lt;input type="text" name="username" /&gt;&lt;br /&gt;<br>
+									   &lt;input type="password" name="password" /&gt;<br>
+									&lt;/form&gt;<br>
+								</code>
+							</p>
+							<p>
+								The name attribute specifies a name for a form.
+							</p>
+						<h4>Form Elements</h4>
+							<p>
+								If we change the input type to <strong>radio</strong>, it allows the user select only one of a number of choices:
+							</p>
+							<p>
+								<code>
+									&lt;input type="radio" name="gender" value="male" /&gt; Male &lt;br /&gt;<br>
+
+									&lt;input type="radio" name="gender" value="female" /&gt; Female &lt;br /&gt;<br>
+								</code>
+							</p>
+							<p>
+								The type "checkbox" allows the user to select more than one option:
+							</p>
+							<p>
+								<code>
+									&lt;input type="checkbox" name="gender" value="male" /&gt; Male &lt;br /&gt;<br>
+
+									&lt;input type="checkbox" name="gender" value="female" /&gt; Female &lt;br /&gt;<br>
+								</code>
+							</p>
+							<p>
+								The <code>&lt;input&gt;</code> tag has no end tag.
+							</p>
+
+							<p>
+								The submit button <strong>submits a form</strong> to its action attribute:
+							</p>
+							<p>
+								<code>
+									&lt;input type="submit" value="Submit" /&gt; 
+								</code>
+							</p>
+							<p>
+								After the form is submitted, the data should be processed on the server using a programming language, such as PHP.
+							</p>
+				</section>
+				<section class="main-section" id="HTML_Colors">
+					<header>HTML Colors</header>
+						<h4>HTML Colors</h4>
+							<p>
+								HTML colors are expressed as hexadecimal values.<br>
+								<strong>0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F</strong>
+							</p>
+							<p>
+								As you can see, there are 16 values there, 0 through F. Zero represents the lowest value, and F represents the highest.
+							</p>
+						<h4>HTML Color Model</h4>
+							<p>
+								Colors are displayed in combinations of <strong>red</strong>, <strong>green</strong>, and <strong>blue</strong> light (<strong>RGB</strong>).
+							</p>
+							<p>
+								Hex values are written using the hashtag symbol (<strong>#</strong>), followed by either three or six hex characters.<br>
+								As shown in the picture below, the circles overlap, forming new colors:<br>
+							<img src="https://api.sololearn.com/DownloadFile?id=2467" alt="">
+							</p>
+							<p>
+								RGB color values are supported in all browsers.
+							</p>
+						<h4>Color Values</h4>
+							<p>
+								All of the possible <strong>red</strong>, <strong>green</strong>, and <strong>blue</strong> combinations potentially number over 16 million.
+							</p>
+							<p>
+								Here are only a few of them:<br>
+
+								<img src="https://api.sololearn.com/DownloadFile?id=2468" alt="">
+							</p>
+							<p>
+								We can mix the colors to form additional colors:<br>
+								<strong>Orange and red mix:</strong>
+								<img src="https://api.sololearn.com/DownloadFile?id=2469" alt="">
+							</p>
+							<p>Hexadecimal color values are supported in all browsers.</p>
+						<h4>Background and Font Colors</h4>
+							<p>
+								The <strong>bgcolor</strong> attribute can be used to change the web page's background color. 
+							</p>
+							<p>
+								This example would produce a dark blue background with a white headline:
+							</p>
+							<p>
+								<code>
+									&lt;html&gt;<br>
+									   &lt;head&gt;<br> 
+									      &lt;title&gt;first page&lt;/title&gt; <br> 
+									   &lt;/head&gt;<br>
+									   &lt;body <strong>bgcolor="#000099"</strong>&gt;<br>
+									       &lt;h1&gt;<br>
+									        &lt;<strong>font color="#FFFFFF"</strong>&gt; White headline &lt;/font&gt;<br>
+									       &lt;/h1&gt;<br> 
+									   &lt;/body&gt;<br>
+									&lt;/html&gt;<br>
+								</code>
+							</p>
+							<p>
+								The color attribute specifies the color of the text inside a <code>&lt;font&gt;</code> element.
+							</p>
+				</section>
+				<section class="main-section" id="Frames">
+					<header>Frames</header>
+						<h4>The <code>&lt;frame&gt;</code> Tag</h4>
+							<p>
+								A page can be divided into frames using a special frame document. 
+							</p>
+							<p>
+								The <code>&lt;frame&gt;</code> tag defines one specific window (frame) within a <strong><code>&lt;frameset&gt;</code></strong>. Each <code>&lt;frame&gt;</code> in a <code>&lt;frameset&gt;</code> can have different attributes, such as border, scrolling, the ability to resize, etc. 
+							</p>
+							<p>
+								The <code>&lt;frameset&gt;</code> element specifies the number of columns or rows in the frameset, as well as what percentage or number of pixels of space each of them occupies.
+							</p>
+							<p>
+								<code>
+									&lt;<strong>frameset cols</strong>="100, 25%, *"&gt;&lt;/<strong>frameset</strong>&gt;<br>
+									&lt;<strong>frameset rows</strong>="100, 25%, *"&gt;&lt;/<strong>frameset</strong>&gt;
+								</code>
+							</p>
+							<p>
+								The <code>&lt;frameset&gt;</code> tag is not supported in HTML5.
+							</p>
+						<h4>Working with Frames</h4>
+							<p>
+								Use the <code>&lt;noresize&gt;</code> attribute to specify that a user cannot resize a <code>&lt;frame&gt;</code> element:
+							</p>
+							<p>
+								<code>
+									&lt;frame <strong>noresize="noresize"</strong>&gt;
+								</code>
+							</p>
+							<p>
+								Frame content should be defined using the <strong>src</strong> attribute.
+							</p>
+							<p>
+								Lastly, the <code>&lt;noframes&gt;</code> element provides a way for browsers that do not support frames to view the page. The element can contain an alternative page, complete with a body tag and any other elements.
+							</p>
+							<p>
+								<code>
+									&lt;frameset cols="25%,50%,25%"&gt;<br>
+									   &lt;frame src="a.htm" /&gt;<br>
+									   &lt;frame src="b.htm" /&gt;<br>
+									   &lt;frame src="c.htm" /&gt;<br>
+									   &lt;noframes&gt;Frames not supported!&lt;/noframes&gt;<br>
+									&lt;/frameset&gt;<br>
+								</code>
+							</p>
+							<p>
+								The <code>&lt;frame&gt;</code> tag is not supported in HTML5.
+							</p>
+				</section>
+
+
+
+
+				
+			</main>
+	
+</body>
