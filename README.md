@@ -107,5 +107,7 @@ Day 47: Worked quite a bit with my cheatsheets project.
 Day 48: FInished the first page of my cheatsheet project.
 
 Day 49: Began working on the second page of my cheatsheet project.
+
+Day 50: Continued working on the second page of my cheatsheet project.
       
       
