@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Cheatsheet</title>
+
+	<link rel="stylesheet" type="text/css" href="html5_cheatsheet.css">
+
+</head>
+<body>
+	<nav id="navbar">
+		<header>HTML5</header>
+			<ul>
+				<a href="#HTML5" class="nav-link">
+					<li>Intro to  HTML5</li></a>
+				<a href="#Content_Models" class="nav-link">
+					<li>Content Models</li></a>
+				<a href="#HTML5_Page_Structure" class="nav-link">
+					<li>HTML5 Page Structure</li></a>
+				<a href="#header_nav_footer" class="nav-link">
+					<li>header, nav, & footer</li></a>
+				<a href="#article_section_aside" class="nav-link">
+					<li>article, section, & aside</li></a>
+				<a href="#audio" class="nav-link">
+					<li>The audio Element</li></a>
+				<a href="#video" class="nav-link">
+					<li>The video Element</li></a>
+				<a href="#Progress" class="nav-link">
+					<li>The progress Element</li></a>
+				<a href="#Web_Storage_API" class="nav-link">
+					<li>Web Storage API</li></a>
+
+				
+			</ul>
+	</nav>
+	   
+			<main id="main-doc">
+				<section class="main-section" id="HTML5">
+					<header>Intro to HTML5</header>
+						<p>When writing HTML5 documents, one of the first new features that you'll notice is the doc type declaration:<br>
+							<code>
+								&lt;!DOCTYPE HTML&gt; 
+							</code>
+						</p>
+						<p>
+							The character encoding (charset) declaration is also simplified:<br>
+							<code>
+								&lt;meta charset="UTF-8"&gt;
+							</code>
+						</p>
+						<p>
+							<strong>New Elements in HTML5:</strong><br>
+								<code>&lt;article&gt;</code>-Defines an article<br> 
+								<code>&lt;aside&gt;</code>-Defines content aside from the page content<br> 
+								<code>&lt;audio&gt;</code>-Defines sound content<br> 
+								<code>&lt;canvas&gt;</code>-Used to draw graphics, on the fly, via scipting(usually JavaScript)<br> 
+								<code>&lt;datalist&gt;</code>-Specifies a list of pre-defined options for input controls<br> 
+								<code>&lt;details&gt;</code><br> 
+								<code>&lt;embed&gt;</code>-Defines a container for an external (non-HTML) application<br>
+							    <code>&lt;footer&gt;</code>-Defines a footer for a document or section<br> 
+								<code>&lt;header&gt;</code>-Defines a header for a document or section<br> 
+								<code>&lt;nav&gt;</code>-Defines navigation section<br>
+								<code>&lt;output&gt;</code><br> 
+								<code>&lt;progress&gt;</code>-Represents the progress of a task<br> 
+								<code>&lt;section&gt;</code>-Defines a section in a document<br> 
+								<code>&lt;video&gt;</code>-Defines video content<br>			
+								and even more!							
+						</p>
+						<p>
+							The default character encoding in HTML5 is UTF-8.
+						</p>
+
+					<header>New in HTML5</header>
+						<p>
+							<strong>Forms</strong><br>
+								- The Web Forms 2.0 specification allows for creation of more powerful forms and more compelling user experiences.<br>
+								- Date pickers, color pickers, and numeric stepper controls have been added.<br>
+								- Input field types now include email, search, and URL.<br>
+								- PUT and DELETE form methods are now supported.<br>
+						</p>
+
+						<p>
+							<strong>Integrated API</strong> (Application Programming Interfaces) <br>
+								- Drag and Drop<br>
+								- Audio and Video<br>
+								- Offline Web Applications<br>
+								- History<br>
+								- Local Storage<br>
+								- Geolocation<br>
+								- Web Messaging<br>
+						</p>
+
+				<section class="main-section" id="Content_Models">
+					<header>Content Models</header>
+						<h4>The List of Content Models</h4>
+							<p>
+								In HTML, elements typically belonged in either the block level or inline content model. HTML5 introduces <strong>seven</strong> main content models.
+							</p>
+							<p>
+								- Metadata<br>
+								- Embedded<br>
+								- Interactive<br>
+								- Heading<br>
+								- Phrasing<br>
+								- Flow<br>
+								- Sectioning<br> 
+							</p>
+							<p>
+								The HTML5 content models are designed to make the markup structure more meaningful for both the browser and the web designer.
+							</p>
+
+						<h4>Content Models</h4>
+							<p>
+								<strong>Metadata</strong>:<br>
+								Content that sets up the presentation or behavior of the rest of the content. These elements are found in the <strong>head</strong> of the document.<br>
+								Elements: <code>&lt;base&gt;, &lt;link&gt;, &lt;meta&gt;, &lt;noscript&gt;, &lt;script&gt;, &lt;style&gt;, &lt;title&gt;</code>
+							</p>
+							<p>
+								<strong>Embedded</strong>:<br>
+								Content that imports other resources into the document.<br>
+								Elements: <code>&lt;audio&gt;, &lt;video&gt;, &lt;canvas&gt;, &lt;iframe&gt;, &lt;img&gt;, &lt;math&gt;, &lt;object&gt;, &lt;svg&gt;</code>
+							</p>
+							<p>
+								<strong>Interactive</strong>:<br>
+								Content specifically intended for user interaction.<br>
+								Elements: <code>&lt;a&gt;, &lt;audio&gt;, &lt;video&gt;, &lt;button&gt;, &lt;details&gt;, &lt;embed&gt;, &lt;iframe&gt;, &lt;img&gt;, &lt;input&gt;, &lt;label&gt;, &lt;object&gt;, &lt;select&gt;, &lt;textarea&gt;</code>
+							</p>
+							<p>
+								<strong>Heading</strong>:<br>
+								Defines a section header.<br>
+								Elements: <code>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;, &lt;hgroup&gt;</code>
+							</p>
+							<p>
+								<strong>Phrasing</strong>:<br>
+								This model has a number of inline level elements in common with HTML4.<br>
+								Elements: <code>&lt;img&gt;, &lt;span&gt;, &lt;strong&gt;, &lt;label&gt;, &lt;br /&gt;, &lt;small&gt;, &lt;sub&gt;</code>, and more.
+							</p>	
+							<p>
+								The same element can belong to more than one content model.
+							</p>
+						<h4>Content Models</h4>
+							<p>
+								<strong>Flow content</strong>:<br> Contains the majority of HTML5 elements that would be included in the normal flow of the document.
+							</p>
+							<p>
+								<strong>Sectioning content</strong>:<br> Defines the scope of headings, content, navigation, and footers.<br>
+								Elements: <code>&lt;article&gt;, &lt;aside&gt;, &lt;nav&gt;, &lt;section&gt;</code>
+							</p>
+							<p>
+								<img src="https://api.sololearn.com/DownloadFile?id=2546" alt="" align="center"><br>
+								The various content models overlap in certain areas, depending on how they are being used.
+							</p>
+				</section>
+				<section class="main-section" id="HTML5_Page_Structure">
+					<header>HTML5 Page Structure</header>
+						<h4>Page Structure in HTML5</h4>
+							<p>A generic HTML5 page structure looks like this:<br>
+								<img src="https://api.sololearn.com/DownloadFile?id=2471" alt="">
+							</p>
+							<p>
+								You may not need some of these elements, depending on your page structure.
+							</p>
+				</section>
+				<section class="main-section" id="header_nav_footer">
+					<header>header, nav, & footer</header>
+						<h4>The <code>&lt;header&gt;</code> Element</h4>
+							<p>
+								In HTML4, we would define a header like this:
+								<code>
+									&lt;div id="header"&gt;
+								</code>
+							</p>
+							<p>
+								In HTML5, a simple <code>&lt;header&gt;</code> tag is used, instead.
+							</p>
+							<p>
+								The <code>&lt;header&gt;</code> element is appropriate for use inside the body tag.
+							</p>
+							<p>
+								<code>
+									&lt;!DOCTYPE html&gt; <br>
+									&lt;html&gt; <br>
+									   &lt;head&gt;&lt;/head&gt; <br>
+									   &lt;body&gt; <br>
+									      <strong>&lt;header&gt;</strong> <br>
+									        &lt;h1&gt; Most important heading &lt;/h1&gt; <br>
+									        &lt;h3&gt; Less important heading &lt;/h3&gt; <br>
+									      <strong>&lt;/header&gt;</strong> <br>
+									   &lt;/body&gt; <br>
+									&lt;/html&gt;
+								</code>
+							</p>
+							<p>
+								Note that the <code>&lt;header&gt;</code> is completely different from the <code>&lt;head&gt;</code> tag.
+							</p>
+						<h4>The <code>&lt;footer&gt;</code> Element</h4>
+							<p>
+								The footer element is also widely used. Generally we refer to a section located at the very bottom of the web page as the footer.
+							</p>
+							<p>
+								<code>
+									&lt;footer&gt;>…&lt;/footer&gt;
+								</code>
+							</p>
+							<p>
+								The following information is usually provided between these tags:<br>
+								- Contact Information<br>
+								- Privacy Policy<br>
+								- Social Media Icons<br>
+								- Terms of Service<br>
+								- Copyright Information<br>
+								- Sitemap and Related Documents<br>
+							</p>
+						<h4>The <code>&lt;nav&gt;</code> Element</h4>
+							<p>
+								This tag represents a section of a page that links to other pages or to certain sections within the page. This would be a section with navigation links. 
+							</p>
+							<p>
+								Here is an example of a major block of navigation links:
+							</p>
+							<p>
+								<code>
+									<strong>&lt;nav&gt;</strong><br>
+									   &lt;ul&gt;<br>
+									      &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;<br>
+									      &lt;li&gt;&lt;a href="#"&gt;Services&lt;/a&gt;&lt;/li&gt;<br>
+									      &lt;li&gt;&lt;a href="#"&gt;About us&lt;/a&gt;&lt;/li&gt;<br>
+									   &lt;/ul&gt;<br>
+									<strong>&lt;/nav&gt;</strong><br>
+								</code>
+							</p>
+							<p>
+								Not all of the links in a document should be inside a <code>&lt;nav&gt;</code> element. The <code>&lt;nav&gt;</code> element is intended only for major blocks of navigation links. Typically, the <code>&lt;footer&gt;</code> element often has a list of links that don't need to be in a <code>&lt;nav&gt;</code> element.
+							</p>
+				<section class="main-section" id="article_section_aside">
+					<header>article, section, & aside</header>
+						<h4>The <code>&lt;article&gt;</code> Element</h4>
+							<p>
+								<strong>Article</strong> is a self-contained, independent piece of content that can be used and distributed separately from the rest of the page or site. This could be a forum post, a magazine or newspaper article, a blog entry, a comment, an interactive widget or gadget, or any other independent piece of content. 
+							</p>
+							<p>
+								The <code>&lt;article&gt;</code> element replaces the <code>&lt;div&gt;</code> element that was widely used in HTML4, along with an id or class.
+							</p>
+							<p>
+								<code>
+									<strong>&lt;article&gt;</strong> <br>
+									   &lt;h1&gt;The article title&lt;/h1&gt;<br> 
+									  &lt;p&gt;Contents of the article element &lt;/p&gt;<br>
+									<strong>&lt;/article&gt;</strong>
+								</code>
+							</p>
+							<p>
+								When an <code>&lt;article&gt;</code> element is nested, the inner element represents an article related to the outer element. For example, blog post comments can be <code>&lt;article&gt</code>; elements nested in the <code>&lt;article&gt;</code> representing the blog post.
+							</p>
+						<h4>The <code>&lt;section&gt;</code> Element</h4>
+							<p>
+								<code>&lt;section&gt;</code> is a logical container of the page or article. <br>
+								Sections can be used to divide up content within an article.<br> 
+								For example, a homepage could have a section for introducing the company, another for news items, and still another for contact information.<br>
+							</p>
+							<p>
+								Each <code>&lt;section&gt;</code> should be identified, typically by including a heading (h1-h6 element) as a child of the <code>&lt;section&gt;</code> element.
+							</p>
+							<p>
+								<code>
+									&lt;article&gt;<br>
+									   &lt;h1&gt;Welcome&lt;/h1&gt;<br>
+									   <strong>&lt;section&gt;</strong><br>
+									      &lt;h1&gt;Heading&lt;/h1&gt;<br>
+									      &lt;p&gt;content or image&lt;/p&gt;<br>
+									   <strong>&lt;/section&gt;</strong><br>
+									&lt;/article&gt;<br>
+								</code>
+							</p>
+							<p>
+								If it makes sense to separately syndicate the content of a <code>&lt;section&gt;</code> element, use an <code>&lt;article&gt;</code> element instead.
+							</p>
+						<h4>The <code>&lt;aside&gt;</code> Element</h4>
+							<p>
+								<code>&lt;aside&gt;</code> is secondary or tangential content which could be considered separate from but indirectly related to the main content.<br>
+								This type of content is often represented in sidebars.<br>
+								When an <code>&lt;aside&gt;</code> tag is used within an <code>&lt;article&gt;</code> tag, the content of the <code>&lt;aside&gt;</code> should be specifically related to that article.<br>
+							</p>
+							<p>
+								<code>
+									&lt;article&gt;<br>
+									   &lt;h1&gt; Gifts for everyone &lt;/h1&gt;<br>
+									   &lt;p&gt; This website will be the best place for choosing gifts &lt;/p&gt;<br>
+									   <strong>&lt;aside&gt;</strong><br>
+									      &lt;p&gt; Gifts will be delivered to you within 24 hours &lt;/p&gt;<br>
+									   <strong>&lt;/aside&gt;</strong><br>
+									&lt;/article&gt;
+								</code>
+							</p>
+							<p>
+								When an <code>&lt;aside&gt;</code> tag is used outside of an <code>&lt;article&gt;</code> tag, its content should be related to the surrounding content.
+							</p>
+				</section>
+				<section class="main-section" id="audio">
+					<header>The audio Element</header>
+						<h4>Audio on the Web</h4>
+							<p>
+								Before HTML5, there was no standard for playing audio files on a web page.<br>
+								The HTML5 <code>&lt;audio&gt;</code> element specifies a standard for embedding audio in a web page.
+							</p>
+							<p>
+								There are two different ways to specify the audio source file's URL. The first uses the source attribute:
+							</p>
+							<p>
+								<code>
+									&lt;<strong>audio</strong> src="audio.mp3" controls&gt;<br>
+									   Audio element not supported by your browser<br>
+									&lt;/<strong>audio</strong>&gt;
+								</code>
+							</p>
+							<p>
+								The second way uses the <code>&lt;source&gt;</code> element inside the <code>&lt;audio&gt;</code> element:
+							</p>
+							<p>
+								<code>
+									&lt;<strong>audio controls</strong>&gt;<br>
+									   &lt;source src="audio.mp3" type="audio/mpeg"&gt;<br>
+									   &lt;source src="audio.ogg" type="audio/ogg"&gt;<br>
+									&lt;/<strong>audio</strong>&gt;
+								</code>
+							</p>
+							<p>
+								Multiple <code>&lt;source&gt;</code> elements can be linked to different audio files. The browser will use the first recognized format.
+							</p>
+							<p>
+								The <code>&lt;audio&gt;</code> element creates an audio player inside the browser.
+							</p>
+							<p>
+								<code>
+									&lt;audio controls&gt;<br>
+									   &lt;source src="audio.mp3" type="audio/mpeg"&gt;<br>
+									   &lt;source src="audio.ogg" type="audio/ogg"&gt;<br>
+									   Audio element not supported by your browser.<br> 
+									&lt;/audio&gt;
+								</code>
+							</p>
+							<p>
+								The text between the <code>&lt;audio&gt;</code> and <code>&lt;/audio&gt;</code> tags will display in browsers that do not support the <code>&lt;audio&gt;</code> element.
+							</p>
+						<h4>Attributes of <code>&lt;audio&gt;</code></h4>
+							<p>
+								<strong>controls</strong><br>
+								Specifies that audio controls should be displayed (such as a play/pause button, etc.)
+							</p>
+							<p>
+								<strong>autoplay</strong><br>
+								When this attribute is defined, audio starts playing as soon as it is ready, without asking for the visitor's permission.
+							</p>
+							<p>
+								<code>
+									&lt;audio controls autoplay&gt;
+								</code>
+							</p>
+							<p>
+								<strong>loop</strong><br>
+								This attribute is used to have the audio replay every time it is finished.
+							</p>
+							<p>
+								<code>
+									&lt;audio controls autoplay loop&gt;
+								</code>
+							</p>
+							<p>
+								Currently, there are three supported file formats for the <code>&lt;audio&gt;</code> element: MP3, WAV, and OGG.
+							</p>
+				</section>
+				<section class="main-section" id="video">
+					<header>The video Element</header>
+						<h4>Videos in HTML</h4>
+							<p>
+								The video element is similar to the audio element. <br>
+								You can specify the video source URL using an attribute in a video element, or using source elements inside the video element:<br>
+							</p>
+							<p>
+								<code>
+									<strong>&lt;video controls&gt;</strong><br>
+									   &lt;source src="video.mp4" type="video/mp4"&gt;<br>
+									   &lt;source src="video.ogg" type="video/ogg"&gt;<br>
+									   Video is not supported by your browser<br>
+									<strong>&lt;/video&gt;</strong>
+								</code>
+							</p>
+							<p>
+								Another aspect that the audio and video elements have in common is that the major browsers do not all support the same file types. If the browser does not support the first video type, it will try the next one.
+							</p>
+						<h4>Attributes of &lt;video&gt;</h4>
+							<p>
+								Another aspect shared by both the audio and the video elements is that each has <strong>controls</strong>, <strong>autoplay</strong> and <strong>loop</strong> attributes. 
+							</p>
+							<p>
+								In this example, the video will replay after it finishes playing:
+							</p>
+							<p>
+								<code>
+									&lt;video controls <strong>autoplay loop</strong>&gt;<br>
+									   &lt;source src="video.mp4" type="video/mp4"&gt;<br>
+									   &lt;source src="video.ogg" type="video/ogg"&gt;<br>
+									   Video is not supported by your browser<br>
+									&lt;/video&gt;
+								</code>
+							</p>
+							<p>
+								Currently, there are three supported video formats for the <code>&lt;video&gt;</code> element: MP4, WebM, and OGG.
+							</p>
+				</section>
+				<section class="main-section" id="Progress">
+					<header>The progress Element</header>
+						<h4>Progress Bar</h4>
+							<p>
+								The <code>&lt;progress&gt;</code> element provides the ability to create progress bars on the web.<br>
+								The progress element can be used within headings, paragraphs, or anywhere else in the body.
+							</p>
+							<p>
+								<strong>Progress Element Attributes</strong><br>
+								<strong>Value</strong>: Specifies how much of the task has been completed. <br>
+								<strong>Max</strong>: Specifies how much work the task requires in total.
+							</p>
+							<p>
+								<strong>Example</strong>:<br>
+								<code>
+									Status: &lt;progress min="0" <strong>max</strong>="100" <strong>value</strong>="35"&gt;<br>
+									&lt;/<strong>progress</strong>&gt;
+								</code>
+							</p>
+							<p>
+								Use the <code>&lt;progress&gt;</code> tag in conjunction with JavaScript to dynamically display a task's progress.
+							</p>
+				<section class="main-section" id="Web_Storage_API">
+					<header>Web Storage API</header>
+						<h4>HTML5 Web Storage</h4>
+							<p>
+								With HTML5 web storage, websites can store data on a user's local computer. <br>
+								Before HTML5, we had to use <strong>JavaScript cookies</strong> to achieve this functionality. 
+							</p>
+							<p>
+								<strong>The Advantages of Web Storage</strong><br>
+								- More secure<br>
+								- Faster<br>
+								- Stores a larger amount of data<br>
+								- Stored data is not sent with every server request
+							</p>
+							<p>
+								Local storage is per domain. All pages from one domain can store and access the same data.
+							</p>
+						<h4>Types of Web Storage Objects</h4>
+							<p>
+								There are two types of web storage objects:<br>
+								<strong>- sessionStorage()<br>
+								- localStorage()</strong>
+							</p>
+							<p>
+								<strong>Local vs. Session</strong><br>
+								- Session Storage is destroyed once the user closes the browser<br>
+								- Local Storage stores data with no expiration date
+							</p>
+							<p>
+								You need to be familiar with basic JavaScript in order to understand and use the API.
+							</p>
+						<h4>Working with Values</h4>
+							<p>
+								The syntax for web storage for both local and session storage is very simple and similar.<br>
+								The data is stored as key/value pairs.
+							</p>
+							<p>
+								<strong>Storing a Value:</strong><br>
+								<code>localStorage.<strong>setItem</strong>("key1", "value1");</code>
+							</p>
+							<p>
+								<strong>Getting a Value:</strong><br>
+								<code>//this will print the value<br>
+								alert(localStorage.<strong>getItem</strong>("key1")); </code>
+							</p>
+							<p>
+								<strong>Removing a Value:</strong><br>
+								<code>localStorage.<strong>removeItem</strong>("key1");</code>
+							</p>
+							<p>
+								<strong>Removing All Values:</strong><br>
+								<code>localStorage.<strong>clear</strong>();</code>
+							</p>
+							<p>
+								The same syntax applies to the session storage, with one difference:<br> Instead of localStorage, sessionStorage is used.
+							</p>
+					</section>
+
+
+		</main>
+	
+</body>
