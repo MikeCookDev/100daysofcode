@@ -111,6 +111,8 @@ Day 49: Began working on the second page of my cheatsheet project.
 Day 50: Continued working on the second page of my cheatsheet project.
 
 Day 51:Did more work on my cheatsheet project.
+
+Day 52: Worked on page two of my project aswell as created a home page for it.
       
    
       
