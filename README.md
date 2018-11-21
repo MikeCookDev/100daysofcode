@@ -120,6 +120,8 @@ Day 54: Had some issues and all the work i did didnt save....
 
 Day 55: Completed Page 2 of the project.
         Updated Home page of project.
+        
+Day 56: Began page 3 or the project
       
    
       
