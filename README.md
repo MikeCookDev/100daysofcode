@@ -122,6 +122,8 @@ Day 55: Completed Page 2 of the project.
         Updated Home page of project.
         
 Day 56: Began page 3 or the project
+
+Day 57: Continued work on page 3 of the project
       
    
       
