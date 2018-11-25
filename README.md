@@ -126,6 +126,8 @@ Day 56: Began page 3 or the project
 Day 57: Continued work on page 3 of the project
 
 Day 58: Made a little more progress on page 3 of the project
+
+Day 59: Continued work on page 3
       
       
    
