@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Cheatsheet</title>
+
+	<link rel="stylesheet" type="text/css" href="css_cheatsheet.css">
+
+</head>
+<body>
+	<nav id="navbar">
+		<header>CSS</header>
+			<ul>
+				<a href="#CSS" class="nav-link">
+					<li>CSS - The Basics</li></a>
+				<a href="#Inline_Embedded_External_CSS" class="nav-link">
+					<li>Inline,Embedded,External CSS</li></a>
+				<a href="#CSS_Rules_and_Selectors" class="nav-link">
+					<li>CSS Rules and Selectors</li></a>
+				<a href="#CSS_Comments" class="nav-link">
+					<li>CSS Comments</li></a>
+				<a href="#Style_Cascade_and_Inheritance" class="nav-link">
+					<li>Style Cascade and Inheritance</li></a>
+				<a href="#font_family" class="nav-link">
+					<li>font-family</li></a>
+				<a href="#font_size" class="nav-link">
+					<li>font-size</li></a>
+				<a href="#font_style" class="nav-link">
+					<li>font-style</li></a>
+				<a href="#font_weight" class="nav-link">
+					<li>font-weight</li></a>
+				<a href="#font_variant" class="nav-link">
+					<li>font-variant</li></a>
+				<a href="#color" class="nav-link">
+					<li>color</li></a>
+								
+			</ul>
+	</nav>
+	   
+			<main id="main-doc">
+				<section class="main-section" id="CSS">
+					<header>CSS - The Basics</header>
+						<h3>What is CSS?</h3>
+							<p>
+								CSS stands for <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets.
+							</p>
+							<p>
+								- <strong>Cascading</strong> refers to the way CSS applies one style on top of another.<br>
+								- <strong>Style Sheets</strong> control the look and feel of web documents.
+							</p>
+							<p>
+								<strong>CSS</strong> and <strong>HTML</strong> work hand in hand:<br>
+								- HTML sorts out the page structure.<br>
+								- CSS defines how HTML elements are displayed.
+							</p>
+							<p>
+								To understand CSS, you should already have a basic knowledge of HTML.
+							</p>
+						<h3>Why Use CSS?</h3>
+							<p>
+								CSS allows you to apply specific styles to specific HTML elements.
+							</p>
+							<p>
+								The main benefit of CSS is that it allows you to separate <strong>style</strong> from <strong>content</strong>. 
+							</p>
+							<p>
+								Using just HTML, all the styles and formatting are in the same place, which becomes rather difficult to maintain as the page grows.
+							</p>
+							<p>
+								All formatting can (and <strong>should</strong>) be removed from the HTML document and stored in a separate CSS file.
+							</p>
+				</section>
+				<section class="main-section" id="Inline_Embedded_External_CSS">
+					<header>Inline, Embedded, External CSS</header>
+						<h3>Inline CSS</h3>
+							<p>
+								Using an inline style is one of the ways to insert a style sheet. With an inline style, a unique style is applied to a single element.
+							</p>
+							<p>
+								In order to use an inline style, add the <strong>style attribute</strong> to the <strong>relevant tag</strong>. 
+							</p>
+							<p>
+								The example below shows how to create a paragraph with a gray background and white text:
+							</p>
+								<ul>
+									<li><code>&lt;p <strong>style</strong>="color:white; background-color:gray;"&gt;</code></li>
+									<li><code>This is an example of inline styling. </code></li>
+									<li><code>&lt;/p&gt;</code></li>
+								</ul>	
+							<p>
+								The style attribute can contain any CSS property.
+							</p>
+						<h3>Embedded/Internal CSS</h3>
+							<p>
+								Internal styles are defined within the <strong>&lt;style&gt;</strong> element, inside the <strong>head</strong> section of an HTML page. 
+							</p>	
+							<p>
+								For example, the following code styles <strong>all</strong> paragraphs:
+							</p>
+								<ul>
+									<li><code>&lt;html&gt;</code></li>
+									   <li><code>&lt;head&gt;</code></li>
+									      <li><code>&lt;style&gt;</code></li>
+									      <li><code>p {</code></li>
+									         <li><code>color:white;</code></li>
+									         <li><code>background-color:gray;</code></li>
+									      <li><code>}</code></li>
+									      <li><code>&lt;/style&gt;</code></li>
+									   <li><code>&lt;/head&gt;</code></li>
+									   <li><code>&lt;body&gt;</code></li>
+									      <li><code>&lt;p&gt;This is my first paragraph. &lt;/p&gt;</code></li>
+									      <li><code>&lt;p&gt;This is my second paragraph. &lt;/p&gt;</code></li>
+									   <li><code>&lt;/body&gt;</code></li>
+									<li><code>&lt;/html&gt;</code></li>
+								</ul>
+							<p>
+								Now all the paragraphs have a white font and a gray background.
+							</p>
+							<p>
+								An internal style sheet may be used if one single page has a unique style.
+							</p>
+						<h3>External CSS</h3>
+							<p>
+								With this method, all styling rules are contained in a single text file, which is saved with the <strong>.css</strong> extension. 
+							</p>
+							<p>
+								This CSS file is then referenced in the HTML using the <link> tag. The <strong>&lt;link&gt;</strong> element goes inside the head section.
+							</p>
+							<p>
+								Here is an example:
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;head&gt;</code></li>
+									   <li><code>&lt;link rel="stylesheet" href="example.css"&gt;</code></li>
+									<li><code>&lt;/head&gt;</code></li>
+									<li><code>&lt;body&gt;</code></li>
+									   <li><code>&lt;p&gt;This is my first paragraph.&lt;/p&gt;</code></li>
+									   <li><code>&lt;p&gt;This is my second paragraph. &lt;/p&gt;</code></li>
+									   <li><code>&lt;p&gt;This is my third paragraph. &lt;/p&gt;</code></li>
+									<li><code>&lt;/body&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>p {</code></li>
+									   <li><code>color:white;</code></li>
+									   <li><code>background-color:gray;</code></li>
+									<li><code>}</code></li>
+								</ul>	
+							<p>
+								Both relative and absolute paths can be used to define the <strong>href</strong> for the CSS file. In our example, the path is relative, as the CSS file is in the same directory as the HTML file.
+							</p>
+				</section>
+				<section class="main-section" id="CSS_Rules_and_Selectors">
+					<header>CSS Rules and Selectors</header>
+						<h3>CSS Syntax</h3>
+							<p>
+								CSS is composed of style rules that the browser interprets and then applies to the corresponding elements in your document. <br>
+								A style rule has three parts: <strong>selector</strong>, <strong>property</strong>, and <strong>value</strong>. 
+							</p>
+							<p>
+								For example, the headline color can be defined as:
+							</p>
+								<ul>
+									<li><code>h1 { color: orange; }</code></li>
+								</ul>
+									<img src="https://api.sololearn.com/DownloadFile?id=2584" alt="">
+							<p>
+								The selector points to the HTML element you want to style.
+							</p>
+							<p>
+								The declaration block contains one or more declarations, separated by semicolons.<br>
+								Each declaration includes a property name and a value, separated by a colon.
+							</p>
+						<h3>Type Selectors</h3>
+							<p>
+								The most common and easy to understand selectors are type selectors. This selector targets element types on the page.
+							</p>
+							<p>
+								For example, to target all the paragraphs on the page:
+							</p>
+								<ul>
+									<li><code>p {</code></li>
+									   <li><code>color: red;</code></li>
+									   <li><code>font-size:130%;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								A CSS declaration always ends with a semicolon, and declaration groups are surrounded by curly braces.
+							</p>
+						<h3>id and class Selectors</h3>
+							<p>
+								<strong>id selectors</strong> allow you to style an HTML element that has an <strong>id</strong> attribute, regardless of their position in the document tree. Here is an example of an id selector:
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;div <strong>id="intro"</strong>&gt;</code></li>
+									   <li><code>&lt;p&gt; This paragraph is in the intro section.&lt;/p&gt;</code></li>
+									<li><code>&lt;/div&gt;</code></li>
+									<li><code>&lt;p&gt; This paragraph is not in the intro section.&lt;/p&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>#intro {</code></li>
+									   <li><code>color: white;</code></li>
+									   <li><code>background-color: gray;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								To select an element with a specific id, use a hash character, and then follow it with the id of the element.
+							</p>
+							<p>
+								<strong>Class selectors</strong> work in a similar way. The major difference is that IDs can only be applied once per page, while classes can be used as many times on a page as needed. 
+							</p>
+							<p>
+								In the example below, both paragraphs having the class "first" will be affected by the CSS: 
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;div&gt;</code></li>
+									   <li><code>&lt;p class="first"&gt;This is a paragraph&lt;/p&gt;</code></li>
+									   <li><code>&lt;p&gt; This is the second paragraph. &lt;/p&gt;</code></li>
+									<li><code>&lt;/div&gt;</code></li>
+									<li><code>&lt;p class="first"&gt; This is not in the intro section&lt;/p&gt;</code></li>
+									<li><code>&lt;p&gt; The second paragraph is not in the intro section. &lt;/p&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>.first {font-size: 200%;}</code></li>
+								</ul>
+							<p>
+								To select elements with a specific class, use a period character, followed by the name of the class.<br>
+								Do <strong>NOT</strong> start a class or id name with a number!
+							</p>
+						<h3>Descendant Selectors</h3>
+							<p>
+								These selectors are used to select elements that are descendants of another element. When selecting levels, you can select as many levels deep as you need to. 
+							</p>
+							<p>
+								For example, to target only &lt;em&gt; elements in the first paragraph of the "intro" section:
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;div id="intro"&gt;</code></li>
+									   <li><code>&lt;p class="first"&gt;This is a &lt;em&gt; paragraph.&lt;/em&gt;&lt;/p&gt;</code></li>
+									   <li><code>&lt;p&gt; This is the second paragraph. &lt;/p&gt;</code></li>
+									<li><code>&lt;/div&gt;</code></li>
+									<li><code>&lt;p class="first"&gt; This is not in the intro section.&lt;/p&gt;</code></li>
+									<li><code>&lt;p&gt; The second paragraph is not in the intro section. &lt;/p&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>#intro .first em {</code></li>
+									   <li><code>color: pink;</code></li> 
+									   <li><code>background-color:gray;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								As a result, only the elements selected will be affected
+							</p>
+							<p>
+								The descendant selector matches all elements that are descendants of a specified element.
+							</p>
+				</section>
+				<section class="main-section" id="CSS_Comments">
+					<header>CSS Comments</header>
+						<h3>Comments</h3>
+							<p>
+								Comments are used to explain your code, and may help you when you edit the source code later. Comments are ignored by browsers.
+							</p>
+							<p>
+								A CSS comment look like this:
+							</p>
+								<ul>
+									<li><code>/* Comment goes here */</code></li>
+								</ul>
+							<p>
+								<strong>Example:</strong>
+							</p>
+								<ul>
+									<li><code>p { </code></li>
+									  <li><code>color: green;</code></li> 
+									  <li><code>/* This is a comment */</code></li>
+									  <li><code>font-size: 150%;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								The comment does not appear in the browser.
+							</p>
+							<p>
+								Comments can also span multiple lines.
+							</p>
+				</section>
+				<section class="main-section" id="Style_Cascade_and_Inheritance">
+					<header>Style Cascade and Inheritance</header>
+						<h3>Cascade</h3>
+							<p>
+								The final appearance of a web page is a result of different styling rules. 
+							</p>
+							<p>
+								The three main sources of style information that form a cascade are:
+							</p>
+								<ul>
+									<li>- The stylesheet created by the <strong>author of the page</strong></li>
+									<li>- The <strong>browser's default styles</strong></li>
+									<li>- Styles specified <strong>by the user</strong></li>
+								</ul>
+							<p>
+								CSS is an acronym for Cascading Style Sheets.
+							</p>
+						<h3>Inheritance</h3>
+							<p>
+								Inheritance refers to the way properties flow through the page. A child element will usually take on the characteristics of the parent element unless otherwise defined. 
+							</p>
+							<p>
+								<strong>For example:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;html&gt;</code></li>
+									   <li><code>&lt;head&gt;</code></li>
+									      <li><code>&lt;style&gt;</code></li>
+									      <li><code>body {</code></li>
+									         <li><code>color: green;</code></li>
+									         <li><code>font-family: Arial;</code></li>
+									      <li><code>}</code></li>
+									     <li><code>&lt;/style&gt;</code></li>
+									   <li><code>&lt;/head&gt;</code></li>
+									   <li><code>&lt;body&gt;</code></li>       
+									      <li><code>&lt;p&gt;</code></li>
+									      <li><code>This is a text inside the paragraph.</code></li> 
+									      <li><code>&lt;/p&gt;</code></li>
+									   <li><code>&lt;/body&gt;</code></li>
+									<li><code>&lt;/html&gt;</code></li>
+								</ul>
+							<p>
+								Since the paragraph tag (child element) is inside the body tag (parent element), it takes on any styles assigned to the body tag.
+							</p>
+				</section>
+				<section class="main-section" id="font_family">
+					<header>font-family</header>
+						<h3>The font-family Property</h3>
+							<p>
+								The font-family property specifies the font for an element.<br> 
+								There are two types of font family names: <br>
+								<ul>
+									<li>- font family: a specific font family (like Times New Roman or Arial)</li>
+									<li>- generic family: a group of font families with a similar look (like Serif or Monospace)</li>
+								</ul>
+							</p>
+							<p>
+								Here is an example of different font styles:
+							</p>
+								<img src="https://api.sololearn.com/DownloadFile?id=2721" alt="" align="center">
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;p class="serif"&gt;</code></li>
+									   <li><code>This is a paragraph shown in serif font.</code></li>
+									<li><code>&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="sansserif"&gt;</code></li>
+									   <li><code>This is a paragraph shown in sans-serif font.</code></li>
+									<li><code>&lt;/p&gt;</code></li> 
+									<li><code>&lt;p class="monospace"&gt;</code></li>
+									   <li><code>This is a paragraph shown in monospace font.</code></li>
+									<li><code>&lt;/p&gt;</code></li> 
+									<li><code>&lt;p class="cursive"&gt;</code></li>
+									   <li><code>This is a paragraph shown in cursive font.</code></li>
+									<li><code>&lt;/p&gt;</code></li> 
+									<li><code>&lt;p class="fantasy"&gt;</code></li>
+									   <li><code>This is a paragraph shown in fantasy font.</code></li>
+									<li><code>&lt;/p&gt; </code></li> 
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>p.serif {</code></li>
+									   <li><code>font-family: "Times New Roman", Times, <strong>serif</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.sansserif {</code></li>
+									   <li><code>font-family: Helvetica, Arial, <strong>sans-serif</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.monospace {</code></li>
+									   <li><code>font-family: "Courier New", Courier, <strong>monospace</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.cursive {</code></li>
+									   <li><code>font-family: Florence, <strong>cursive</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.fantasy {</code></li>
+									   <li><code>font-family: Blippo, <strong>fantasy</strong>;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								Separate each value with a <strong>comma</strong> to indicate that they are alternatives.<br> 
+								If the name of a font family is more than one word, it must be in quotation marks:<br> "<strong>Times New Roman</strong>".
+							</p>
+							<p>
+								The font-family property should hold several font names as a "fallback" system. When specifying a web font in a CSS style, add more than one font name, in order to avoid unexpected behaviors. If the client computer for some reason doesn't have the one you choose, it will try the next one. 
+							</p>
+							<p>
+								It is a good practice to specify a generic font family, to let the browser pick a similar font in the generic family, if no other fonts are available.
+							</p>
+								<ul>
+									<li><code>body {</code></li>
+									   <li><code>font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								If the browser does not support the font <strong>Arial</strong>, it tries the next fonts (<strong>Helvetica Neue</strong>, then <strong>Helvetica</strong>). If the browser doesn't have any of them, it will try the generic <strong>sans-serif</strong>. 
+							</p>
+							<p>
+								Remember to use quotation marks if the font name consists of more than one word.
+							</p>
+				</section>
+				<section class="main-section" id="font_size">
+					<header>font-size</header>
+						<h3>The font-size Property</h3>
+							<p>
+								The font-size property sets the size of a font. One way to set the size of fonts on the web is to use <strong>keywords</strong>. For example <strong>xx-small, small, medium, large, larger</strong>, etc.
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;p class="small"&gt;</code></li>
+									   <li><code>Paragraph text set to be small</code></li>
+									<li><code>&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="medium"&gt;</code></li>
+									   <li><code>Paragraph text set to be medium</code></li>
+									<li><code>&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="large"&gt;</code></li>
+									   <li><code>Paragraph text set to be large</code></li>
+									<li><code>&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="xlarge"&gt;</code></li>
+									   <li><code>Paragraph text set to be very large</code></li>
+									<li><code>&lt;/p&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>p.small {</code></li>
+									   <li><code>font-size: <strong>small</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.medium {</code></li>
+									   <li><code>font-size: <strong>medium</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.large {</code></li>
+									   <li><code>font-size: <strong>large</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.xlarge {</code></li>
+									   <li><code>font-size: <strong>x-large</strong>;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								Keywords are useful if you do not want the user to be able to increase the size of the font because it will adversely affect your site's appearance.
+							</p>
+							<p>
+								You can also use numerical values in <strong>pixels</strong> or <strong>ems</strong> to manipulate font size.<br> 
+								Setting the font size in pixel values (<strong>px</strong>) is a good choice when you need pixel accuracy, and it gives you full control over the text size.<br> 
+								The <strong>em</strong> size unit is another way to set the font size (<strong>em</strong> is a relative size unit). It allows all major browsers to resize the text. If you haven't set the font size anywhere on the page, then it is the browser default size, which is <strong>16px</strong>.
+							</p>
+							<p>
+								To calculate the em size, just use the following formula: em <strong>= pixels / 16<br>
+								For example:</strong>
+							</p>
+								<ul>
+									<li><code>h1 {</code></li>
+									   <li><code>font-size: 20px;</code></li>
+									<li><code>}</code></li>
+								</ul> 
+								<ul>
+									<li><code>h1 {</code></li>
+									   <li><code>font-size: 1.25em;</code></li> 
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								Both of the examples will produce the same result in the browser, because <strong>20/16=1.25em</strong>.
+							</p>
+							<p>
+								Try different combinations of text size and page zooming in a variety of browsers to ensure that the text remains readable.
+							</p>
+				</section>
+				<section class="main-section" id="font_style">
+					<header>font-style</header>
+						<h3>The font-style Property</h3>
+							<p>
+								The font-style property is typically used to specify italic text.
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;p class="italic"&gt;This is a paragraph in italic style.&lt;/p&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>p.italic {</code></li>
+									   <li><code>font-style: italic;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								The font-style property has three values: <strong>normal, italic</strong>, and <strong>oblique</strong>. <br>
+								Oblique is very similar to italic, but less supported. 
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;p class="normal"&gt;This paragraph is normal.&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="italic"&gt;This paragraph is italic.&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="oblique"&gt;This paragraph is oblique.&lt;/p&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>p.normal {</code></li>
+									   <li><code>font-style: <strong>normal</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.italic {</code></li>
+									   <li><code>font-style: <strong>italic</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.oblique {</code></li>
+									   <li><code>font-style: <strong>oblique</strong>;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								The HTML <strong>&lt;i&gt;</strong> tag will produce exactly the same result as the <strong>italic font style</strong>.
+							</p>
+				</section>
+				<section class="main-section" id="font_weight">
+					<header>font-weight</header>
+						<h3>The font-weight Property</h3>
+							<p>
+								The font-weight controls the boldness or thickness of the text. The values can be set as <strong>normal</strong> (default size), <strong>bold</strong>, <strong>bolder</strong>, and <strong>lighter</strong>.
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;p class="light"&gt;This is a font with a "lighter" weight.&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="bold"&gt;This is a font with a "bold" weight.&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="bolder"&gt;This is a font with a "bolder" weight.&lt;/p&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>p.light { </code></li>  
+									   <li><code>font-weight: <strong>lighter</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.bold { </code></li>  
+									   <li><code>font-weight: <strong>bold</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.bolder {</code></li>
+									   <li><code>font-weight: <strong>bolder</strong>;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								You can also define the font weight with a number from <strong>100</strong> (thin) to <strong>900</strong> (thick), according to how thick you want the text to be. <br>
+								400 is the same as normal, and 700 is the same as bold. 
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;p class="light"&gt;This is a font with a "lighter" weight.&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="thick"&gt;This is a font with a "bold" weight.&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="thicker"&gt;This is a font with a "700" weight.&lt;/p&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>p.light {</code></li>
+									   <li><code>font-weight: <strong>lighter</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.thick {</code></li>
+									   <li><code>font-weight: <strong>bold</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.thicker {</code></li>
+									   <li><code>font-weight: <strong>700</strong>;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								The HTML <strong>&lt;strong&gt;</strong> tag also makes the text <strong>bold</strong>.
+							</p>
+				</section>	
+				<section class="main-section" id="font_variant">
+					<header>font-variant</header>
+						<h3>The font-variant Property</h3>
+							<p>
+								The CSS font-variant property allows you to convert your font to all small caps. The values can be set as <strong>normal, small-caps</strong>, and <strong>inherit</strong>. 
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;p class="normal"&gt;Paragraph font variant set to normal.&lt;/p&gt;</code></li>
+									<li><code>&lt;p class="small"&gt;Paragraph font variant set to small-caps.&lt;/p&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>p.normal {</code></li>
+									<li><code>   font-variant: <strong>normal</strong>;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.small {</code></li>
+									<li><code>   font-variant: <strong>small-caps</strong>;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								Not every font supports CSS font-variant, so be sure to test before you publish.
+							</p>
+				</section>
+				<section class="main-section" id="color">
+					<header>Color</header>
+						<h3>The color Property</h3>
+							<p>
+								The CSS color property specifies the <strong>color</strong> of the text.<br>
+								One method of specifying the color of the text is using a <strong>color name</strong>: like red, green, blue, etc. <br>
+								Here's an example of changing the color of your font.
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;p class="example"&gt;The text inside the paragraph is green.&lt;/p&gt;</code></li>
+									<li><code>The text outside the paragraph is black (by default). </code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>p.example {</code></li>
+									   <li><code>color: green;</code></li>
+									<li><code>}</code></li>
+								</ul>
+							<p>
+								Another way of defining colors is using <strong>hexadecimal</strong> values and <strong>RGB</strong>. 
+								Hexadecimal form is a pound sign (<strong>#</strong>) followed by at most, <strong>6 hex values</strong> (0-F).
+								RGB defines the individual values for <strong>Red, Green</strong>, and <strong>Blue</strong>.
+							</p>
+							<p>
+								In the example below, we use hexadecimal value to set the heading color to blue, and RGB form to make the paragraph red. 
+							</p>
+							<p>
+								<strong>The HTML:</strong>
+							</p>
+								<ul>
+									<li><code>&lt;h1&gt;This is a heading&lt;/h1&gt;</code></li>
+									<li><code>&lt;p class="example"&gt;This is a paragraph&lt;/p&gt;</code></li>
+								</ul>
+							<p>
+								<strong>The CSS:</strong>
+							</p>
+								<ul>
+									<li><code>h1 {</code></li>
+									   <li><code>color: #0000FF;</code></li>
+									<li><code>}</code></li>
+									<li><code>p.example {</code></li>
+									   <li><code>color: rgb(255,0,0);</code></li>
+									<li><code>}</code></li>
+								</ul>
+
+
+
+								
+
+
+
+		</main>
+	
+</body>
