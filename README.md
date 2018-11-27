@@ -128,6 +128,9 @@ Day 57: Continued work on page 3 of the project
 Day 58: Made a little more progress on page 3 of the project
 
 Day 59: Continued work on page 3
+
+Day 60: Continued work on page 3
+        Began studying JavaScript ES6
       
       
    
