@@ -132,6 +132,8 @@ Day 59: Continued work on page 3
 Day 60: Continued work on page 3
         Began studying JavaScript ES6
         Practiced a bit with Bootstrap
+        
+Day 61: Practiced some more Boostrap
       
       
    
