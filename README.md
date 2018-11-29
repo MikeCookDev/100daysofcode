@@ -134,6 +134,9 @@ Day 60: Continued work on page 3
         Practiced a bit with Bootstrap
         
 Day 61: Practiced some more Boostrap
+
+Day 62: COmpleted Bootstrap Section
+        Setup page to practice bootstrap and jQuery
       
       
    
