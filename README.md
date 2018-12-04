@@ -138,7 +138,7 @@ Day 61: Practiced some more Boostrap
 Day 62: Completed Bootstrap Section
         Setup page to practice bootstrap and jQuery
       
-Day 63: Not alot of hands on coding the past few days, but i have been spending most of my dedicated study time to reading articles and         tutorials to try and aid in my growth of JavaScript.  
+Day 63: Back to practicing some JavaScript, took some time to clear my head and get back into the flow of things
     
       
       
