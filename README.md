@@ -141,6 +141,8 @@ Day 62: Completed Bootstrap Section
 Day 63: Back to practicing some JavaScript, took some time to clear my head and get back into the flow of things
 
 Day 64: Continued practicing JavaScript
+
+Day 65: Continued reading up and practicing JavaScript
     
       
       
