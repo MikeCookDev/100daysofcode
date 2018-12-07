@@ -143,6 +143,8 @@ Day 63: Back to practicing some JavaScript, took some time to clear my head and 
 Day 64: Continued practicing JavaScript
 
 Day 65: Continued reading up and practicing JavaScript
+
+Day 66: COntinued practice with JavaScript and began enjoying it again after studying and making sense of things.
     
       
       
