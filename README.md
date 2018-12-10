@@ -145,6 +145,8 @@ Day 64: Continued practicing JavaScript
 Day 65: Continued reading up and practicing JavaScript
 
 Day 66: COntinued practice with JavaScript and began enjoying it again after studying and making sense of things.
+
+Day 67: Finally got a new computer and practiced and worked with JavaScript and Math in JavaScript.
     
       
       
