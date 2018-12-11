@@ -147,6 +147,8 @@ Day 65: Continued reading up and practicing JavaScript
 Day 66: COntinued practice with JavaScript and began enjoying it again after studying and making sense of things.
 
 Day 67: Finally got a new computer and practiced and worked with JavaScript and Math in JavaScript.
+
+Day 68: Practiced more on JavaScript and building a few random generator projects.
     
       
       
