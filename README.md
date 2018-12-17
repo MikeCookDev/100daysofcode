@@ -151,6 +151,8 @@ Day 67: Finally got a new computer and practiced and worked with JavaScript and 
 Day 68: Practiced more on JavaScript and building a few random generator projects.
 
 Day 69: Worked on a small JavaScript project using math and combining strings.
+
+Day 70: Unexpected break to deal with some holiday stuff, but back at it an studying conitional statements.
     
       
       
