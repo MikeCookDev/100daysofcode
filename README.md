@@ -156,6 +156,8 @@ Day 70: Unexpected break to deal with some holiday stuff, but back at it an stud
 
 Day 71-72 : Practiced making a random number generator game
 
+Day 73: Worked on a Mini Quiz Project
+
     
       
       
