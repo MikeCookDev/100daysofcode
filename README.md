@@ -158,6 +158,8 @@ Day 71-72 : Practiced making a random number generator game
 
 Day 73: Worked on a Mini Quiz Project
 
+Day 74: Practiced a bit with functions
+
     
       
       
