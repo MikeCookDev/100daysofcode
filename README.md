@@ -160,6 +160,8 @@ Day 73: Worked on a Mini Quiz Project
 
 Day 74: Practiced a bit with functions
 
+Day 75: Worked on returning a function
+
     
       
       
