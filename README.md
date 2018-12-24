@@ -162,6 +162,8 @@ Day 74: Practiced a bit with functions
 
 Day 75: Worked on returning a function
 
+Day 76: Began practicing CSS layouts and practicing JavaScript Functions
+
     
       
       
