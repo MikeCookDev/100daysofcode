@@ -164,6 +164,8 @@ Day 75: Worked on returning a function
 
 Day 76: Began practicing CSS layouts and practicing JavaScript Functions
 
+Day 77: Practiced inline,block, and inline-block elements
+
     
       
       
